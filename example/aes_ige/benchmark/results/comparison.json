@@ -2,148 +2,148 @@
   {
     "case": "decrypt_128",
     "n": 1024,
-    "cjr_median_ns": 203.3843994140625,
-    "openssl_median_ns": 2.402186393737793,
-    "cjr_over_openssl": 84.66636891469406
+    "cjr_median_ns": 199.9969482421875,
+    "openssl_median_ns": 2.332150936126709,
+    "cjr_over_openssl": 85.75643417588877
   },
   {
     "case": "decrypt_128",
     "n": 16,
-    "cjr_median_ns": 167.572021484375,
-    "openssl_median_ns": 2.102792263031006,
-    "cjr_over_openssl": 79.69024065307974
+    "cjr_median_ns": 162.04833984375,
+    "openssl_median_ns": 2.052128314971924,
+    "cjr_over_openssl": 78.96598797525343
   },
   {
     "case": "decrypt_128",
     "n": 65536,
-    "cjr_median_ns": 230.1177978515625,
-    "openssl_median_ns": 2.3749470710754395,
-    "cjr_over_openssl": 96.89386372192244
+    "cjr_median_ns": 228.9276123046875,
+    "openssl_median_ns": 2.3254752159118652,
+    "cjr_over_openssl": 98.44336793540946
   },
   {
     "case": "decrypt_192",
     "n": 1024,
-    "cjr_median_ns": 245.4833984375,
-    "openssl_median_ns": 2.7266740798950195,
-    "cjr_over_openssl": 90.03034145061864
+    "cjr_median_ns": 241.24908447265625,
+    "openssl_median_ns": 2.6581287384033203,
+    "cjr_over_openssl": 90.758991837833
   },
   {
     "case": "decrypt_192",
     "n": 16,
-    "cjr_median_ns": 199.4781494140625,
-    "openssl_median_ns": 2.4698972702026367,
-    "cjr_over_openssl": 80.76374342391043
+    "cjr_median_ns": 197.16644287109375,
+    "openssl_median_ns": 2.424478530883789,
+    "cjr_over_openssl": 81.32323728980234
   },
   {
     "case": "decrypt_192",
     "n": 65536,
-    "cjr_median_ns": 275.1312255859375,
-    "openssl_median_ns": 2.729177474975586,
-    "cjr_over_openssl": 100.81104219446144
+    "cjr_median_ns": 270.79010009765625,
+    "openssl_median_ns": 2.667665481567383,
+    "cjr_over_openssl": 101.50826704799357
   },
   {
     "case": "decrypt_256",
     "n": 1024,
-    "cjr_median_ns": 286.97967529296875,
-    "openssl_median_ns": 3.1110048294067383,
-    "cjr_over_openssl": 92.246618385255
+    "cjr_median_ns": 281.94427490234375,
+    "openssl_median_ns": 3.0149221420288086,
+    "cjr_over_openssl": 93.51627061009846
   },
   {
     "case": "decrypt_256",
     "n": 16,
-    "cjr_median_ns": 232.7728271484375,
-    "openssl_median_ns": 2.818584442138672,
-    "cjr_over_openssl": 82.5850109964473
+    "cjr_median_ns": 229.034423828125,
+    "openssl_median_ns": 2.761960029602051,
+    "cjr_over_openssl": 82.92459752255168
   },
   {
     "case": "decrypt_256",
     "n": 65536,
-    "cjr_median_ns": 323.3489990234375,
-    "openssl_median_ns": 3.1189918518066406,
-    "cjr_over_openssl": 103.67099831829995
+    "cjr_median_ns": 316.192626953125,
+    "openssl_median_ns": 3.0219554901123047,
+    "cjr_over_openssl": 104.63179487179487
   },
   {
     "case": "encrypt_128",
     "n": 1024,
-    "cjr_median_ns": 150.4058837890625,
-    "openssl_median_ns": 2.278268337249756,
-    "cjr_over_openssl": 66.01763336211182
+    "cjr_median_ns": 147.84622192382812,
+    "openssl_median_ns": 2.2062063217163086,
+    "cjr_over_openssl": 67.0137785702707
   },
   {
     "case": "encrypt_128",
     "n": 16,
-    "cjr_median_ns": 111.74774169921875,
-    "openssl_median_ns": 2.025306224822998,
-    "cjr_over_openssl": 55.17572618381942
+    "cjr_median_ns": 108.33358764648438,
+    "openssl_median_ns": 1.9843578338623047,
+    "cjr_over_openssl": 54.59377628259041
   },
   {
     "case": "encrypt_128",
     "n": 65536,
-    "cjr_median_ns": 175.62103271484375,
-    "openssl_median_ns": 2.2423863410949707,
-    "cjr_over_openssl": 78.31881130219824
+    "cjr_median_ns": 175.17852783203125,
+    "openssl_median_ns": 2.209484577178955,
+    "cjr_over_openssl": 79.28479322344816
   },
   {
     "case": "encrypt_192",
     "n": 1024,
-    "cjr_median_ns": 180.694580078125,
-    "openssl_median_ns": 2.6062726974487305,
-    "cjr_over_openssl": 69.33064995654759
+    "cjr_median_ns": 176.6204833984375,
+    "openssl_median_ns": 2.534627914428711,
+    "cjr_over_openssl": 69.68300253974226
   },
   {
     "case": "encrypt_192",
     "n": 16,
-    "cjr_median_ns": 132.843017578125,
-    "openssl_median_ns": 2.3903250694274902,
-    "cjr_over_openssl": 55.575293618931255
+    "cjr_median_ns": 130.50079345703125,
+    "openssl_median_ns": 2.3322105407714844,
+    "cjr_over_openssl": 55.955837252095684
   },
   {
     "case": "encrypt_192",
     "n": 65536,
-    "cjr_median_ns": 210.06011962890625,
-    "openssl_median_ns": 2.6650428771972656,
-    "cjr_over_openssl": 78.8205403471104
+    "cjr_median_ns": 209.78546142578125,
+    "openssl_median_ns": 2.5675296783447266,
+    "cjr_over_openssl": 81.70712229547776
   },
   {
     "case": "encrypt_256",
     "n": 1024,
-    "cjr_median_ns": 210.01434326171875,
-    "openssl_median_ns": 2.9604434967041016,
-    "cjr_over_openssl": 70.94016268019651
+    "cjr_median_ns": 205.54351806640625,
+    "openssl_median_ns": 2.91597843170166,
+    "cjr_over_openssl": 70.48869629205674
   },
   {
     "case": "encrypt_256",
     "n": 16,
-    "cjr_median_ns": 153.00750732421875,
-    "openssl_median_ns": 2.7648210525512695,
-    "cjr_over_openssl": 55.34083559694736
+    "cjr_median_ns": 151.85546875,
+    "openssl_median_ns": 2.7173757553100586,
+    "cjr_over_openssl": 55.88313226584777
   },
   {
     "case": "encrypt_256",
     "n": 65536,
-    "cjr_median_ns": 245.20111083984375,
-    "openssl_median_ns": 3.0118227005004883,
-    "cjr_over_openssl": 81.4128636453592
+    "cjr_median_ns": 244.0948486328125,
+    "openssl_median_ns": 2.9227733612060547,
+    "cjr_over_openssl": 83.51480544905783
   },
   {
     "case": "key_128",
     "n": 16,
-    "cjr_median_ns": 526.55029296875,
-    "openssl_median_ns": 29.37602996826172,
-    "cjr_over_openssl": 17.924487874557673
+    "cjr_median_ns": 513.8397216796875,
+    "openssl_median_ns": 28.772354125976562,
+    "cjr_over_openssl": 17.858800132582036
   },
   {
     "case": "key_192",
     "n": 24,
-    "cjr_median_ns": 548.5076904296875,
-    "openssl_median_ns": 20.479202270507812,
-    "cjr_over_openssl": 26.783645338548943
+    "cjr_median_ns": 537.8570556640625,
+    "openssl_median_ns": 19.927978515625,
+    "cjr_over_openssl": 26.990045941807043
   },
   {
     "case": "key_256",
     "n": 32,
-    "cjr_median_ns": 707.1533203125,
-    "openssl_median_ns": 38.421630859375,
-    "cjr_over_openssl": 18.40508339952343
+    "cjr_median_ns": 691.009521484375,
+    "openssl_median_ns": 37.82081604003906,
+    "cjr_over_openssl": 18.27061374754148
   }
 ]

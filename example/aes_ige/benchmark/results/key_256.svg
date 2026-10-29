@@ -10,10 +10,10 @@
 <path d="M 800.0 50 V 155" stroke="#e4e9e9"/>
 <text x="800.0" y="180" text-anchor="middle">1000</text>
 <text x="20" y="80">32 key bytes</text>
-<path d="M 751.6418863999933 80 H 755.5962871752466" stroke="#176f76" stroke-width="5"/>
-<circle cx="753.3492113088635" cy="80" r="5" fill="#176f76"/>
-<text x="830" y="85">CJR: 707.15</text>
-<path d="M 359.08299758207943 107 H 361.85858307115683" stroke="#de8b37" stroke-width="5"/>
-<circle cx="361.21849649592485" cy="107" r="5" fill="#de8b37"/>
-<text x="830" y="112">OpenSSL: 38.42</text>
+<path d="M 749.201480877425 80 H 750.7385748666031" stroke="#176f76" stroke-width="5"/>
+<circle cx="750.240049795823" cy="80" r="5" fill="#176f76"/>
+<text x="830" y="85">CJR: 691.01</text>
+<path d="M 357.7283303535006 107 H 359.9493624963638" stroke="#de8b37" stroke-width="5"/>
+<circle cx="359.09657749830944" cy="107" r="5" fill="#de8b37"/>
+<text x="830" y="112">OpenSSL: 37.82</text>
 </svg>

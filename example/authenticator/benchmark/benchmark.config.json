@@ -1,0 +1,63 @@
+{
+  "project_root": "../../..",
+  "compiler": "cjc",
+  "required_compiler_version": "1.0.5",
+  "output": "example/authenticator/benchmark/results",
+  "processes": 3,
+  "timeout_seconds": 900,
+  "group_by": [
+    "case",
+    "n",
+    "implementation"
+  ],
+  "plots": {
+    "facet": "case",
+    "filename": "{facet}.svg"
+  },
+  "protocol": {
+    "warmups": 2,
+    "processes": 3,
+    "samples_per_process": 7,
+    "validation": "Independent fixture constants, full runtime suites, checked timed checksums. Native code is optimized; core microbenchmarks may be simplified or inlined by the compiler.",
+    "units": "ns per operation: core primitive/callback invocation; authenticator complete kernel or session lifecycle. Session includes allocate, enroll, list, read, rename, remove, destroy."
+  },
+  "workloads": {
+    "comparison": "Synthetic test secrets only. SHA-1/HMAC/OTP/Base32 use fixture checks; no security inference follows from timings."
+  },
+  "libraries": [
+    "example/authenticator/core/extracted/authenticator.cj"
+  ],
+  "harness": "runtime_bench.cj",
+  "jobs": [
+    {
+      "name": "authenticator",
+      "compile": [
+        "python3",
+        "{root}/example/authenticator/benchmark/compile.py",
+        "{cjc}",
+        "{root}",
+        "{binary}"
+      ],
+      "run": [
+        "{binary}",
+        "--no-progress",
+        "--no-color"
+      ],
+      "sources": [
+        "example/authenticator/core/extracted/authenticator.cj",
+        "example/authenticator/benchmark/compile.py",
+        "example/authenticator/benchmark/runtime_bench.cj",
+        "{core}/tools/project_tools/benchmark_common.cj"
+      ],
+      "harness_sources": [
+        "example/authenticator/benchmark/compile.py",
+        "example/authenticator/benchmark/runtime_bench.cj",
+        "{core}/tools/project_tools/benchmark_common.cj"
+      ],
+      "expected_rows_per_process": 42,
+      "pattern": "BENCH,(?P<case>[a-z_]+),(?P<implementation>[A-Za-z]+),(?P<n>\\d+),(?P<trial>\\d+),(?P<elapsed_ns>\\d+),(?P<operations>\\d+),(?P<checksum>-?\\d+)"
+    }
+  ],
+  "report_css": "../../../../docs/style.css",
+  "report_index": "../../index.html"
+}

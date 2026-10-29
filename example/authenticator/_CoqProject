@@ -1,0 +1,86 @@
+-R /Users/danghica/cjr/cjr-core/theories cjr
+-Q /Users/danghica/cjr/cjr-core/tools/extraction/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-core/example/generics/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-core/example/misc/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/array/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/array_list/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/hash_map/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/list/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/list_rev/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/most_frequent/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/poly_array/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/qsort/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/quadtree cjr.quadtree
+-Q /Users/danghica/cjr/cjr-crypto/example/aes_ige/rocq cjr.aes_ige
+-Q /Users/danghica/cjr/cjr-crypto/example/authenticator/core/rocq cjr.authenticator
+-Q /Users/danghica/cjr/cjr-crypto/extraction cjr.crypto
+-Q /Users/danghica/cjr/cjr-crypto/audit cjr.audit
+core/rocq/account_bounds.v
+core/rocq/account_code.v
+core/rocq/account_enroll.v
+core/rocq/account_enroll_entry.v
+core/rocq/account_enroll_guard.v
+core/rocq/account_enroll_representation.v
+core/rocq/account_layout.v
+core/rocq/account_model.v
+core/rocq/account_refinement.v
+core/rocq/account_rename.v
+core/rocq/account_rename_representation.v
+core/rocq/account_representation.v
+core/rocq/account_slots.v
+core/rocq/account_validation.v
+core/rocq/accounts.v
+core/rocq/base32.v
+core/rocq/base32_contracts.v
+core/rocq/base32_decoder.v
+core/rocq/base32_input.v
+core/rocq/base32_refinement.v
+core/rocq/base32_stream.v
+core/rocq/core_accounts.v
+core/rocq/core_crypto.v
+core/rocq/crypto_bounds.v
+core/rocq/crypto_buffers.v
+core/rocq/crypto_composition.v
+core/rocq/crypto_hmac.v
+core/rocq/crypto_hmac_entry.v
+core/rocq/crypto_hmac_inputs.v
+core/rocq/crypto_hmac_key.v
+core/rocq/crypto_hmac_reject.v
+core/rocq/crypto_hotp.v
+core/rocq/crypto_hotp_entry.v
+core/rocq/crypto_refinement.v
+core/rocq/crypto_reject_composition.v
+core/rocq/crypto_totp.v
+core/rocq/crypto_truncate.v
+core/rocq/encoding.v
+core/rocq/encoding_arithmetic.v
+core/rocq/encoding_stack.v
+core/rocq/extract.v
+core/rocq/input_memory.v
+core/rocq/memory.v
+core/rocq/memory_application.v
+core/rocq/memory_calls.v
+core/rocq/model.v
+core/rocq/otp_bounds.v
+core/rocq/otp_execution_bounds.v
+core/rocq/padding.v
+core/rocq/padding_memory.v
+core/rocq/padding_native.v
+core/rocq/program.v
+core/rocq/refinement.v
+core/rocq/round_kernel.v
+core/rocq/round_model.v
+core/rocq/sessions.v
+core/rocq/sha1_blocks.v
+core/rocq/sha1_bounds.v
+core/rocq/sha1_compress.v
+core/rocq/sha1_compute.v
+core/rocq/sha1_digest.v
+core/rocq/sha1_entry.v
+core/rocq/sha1_iteration.v
+core/rocq/sha1_loop.v
+core/rocq/sha1_memory.v
+core/rocq/sha1_reject.v
+core/rocq/sha1_rounds.v
+core/rocq/sha1_state.v
+core/rocq/sha_execution_bounds.v

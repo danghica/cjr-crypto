@@ -1,0 +1,62 @@
+[
+  {
+    "case": "base_decode",
+    "implementation": "CJR",
+    "iqr_ns": 3.5266876220703125,
+    "median_ns": 68.38607788085938,
+    "n": 16,
+    "q1_ns": 66.54167175292969,
+    "q3_ns": 70.068359375,
+    "samples": 21
+  },
+  {
+    "case": "hmac",
+    "implementation": "CJR",
+    "iqr_ns": 114.501953125,
+    "median_ns": 3082.763671875,
+    "n": 3,
+    "q1_ns": 3019.287109375,
+    "q3_ns": 3133.7890625,
+    "samples": 21
+  },
+  {
+    "case": "hotp",
+    "implementation": "CJR",
+    "iqr_ns": 205.2001953125,
+    "median_ns": 3226.5625,
+    "n": 20,
+    "q1_ns": 3141.4794921875,
+    "q3_ns": 3346.6796875,
+    "samples": 21
+  },
+  {
+    "case": "session",
+    "implementation": "CJR",
+    "iqr_ns": 169.5556640625,
+    "median_ns": 4915.771484375,
+    "n": 1,
+    "q1_ns": 4777.9541015625,
+    "q3_ns": 4947.509765625,
+    "samples": 21
+  },
+  {
+    "case": "sha_one",
+    "implementation": "CJR",
+    "iqr_ns": 61.279296875,
+    "median_ns": 694.51904296875,
+    "n": 3,
+    "q1_ns": 651.85546875,
+    "q3_ns": 713.134765625,
+    "samples": 21
+  },
+  {
+    "case": "totp",
+    "implementation": "CJR",
+    "iqr_ns": 38.330078125,
+    "median_ns": 3249.1455078125,
+    "n": 20,
+    "q1_ns": 3230.224609375,
+    "q3_ns": 3268.5546875,
+    "samples": 21
+  }
+]

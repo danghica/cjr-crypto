@@ -1,0 +1,9 @@
+{
+  "proofs_revalidated": false,
+  "runtime_cases": 24,
+  "authenticator_frontends": "CLI, SwiftUI, Swift/C/Cangjie integration passed with historical proof gates retained",
+  "authenticator_documentation": "84 pages; 30969 HTML links and fragments checked",
+  "html_links": "117 pages; zero broken links",
+  "pdf": "compiled twice; representative pages visually inspected",
+  "benchmarks": "1008 normalized checksum-validated samples across AES and authenticator suites"
+}

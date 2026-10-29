@@ -42,7 +42,7 @@ def main():
         print(f"Compared {data['compared_bytes']} bytes across 18 workloads, including final IVs")
     if args.benchmark_binary:
         subprocess.run([str(cjc),str(ROOT/'extracted/aes_ige.cj'),
-                        str(Path(os.environ['CJR_CORE_DIR'])/'tools/project_tools/benchmark_common.cj'),
+                        str(Path(os.environ.get('CJR_CORE_DIR',str(ROOT.parents[2]/'cjr-core')))/'tools/project_tools/benchmark_common.cj'),
                         str(ROOT/'benchmark/aes_ige_bench.cj'),'--test','-O2','-o',str(args.benchmark_binary)],
                        env=env,check=True,timeout=900)
 if __name__=='__main__': main()

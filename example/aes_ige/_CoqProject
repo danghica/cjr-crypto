@@ -1,47 +1,46 @@
--R ../../theories cjr
--Q ../../example/array/rocq cjr.examples
--Q ../../example/array_list/rocq cjr.examples
--Q ../../example/list/rocq cjr.examples
--Q ../../example/list_rev/rocq cjr.examples
--Q ../../example/qsort/rocq cjr.examples
--Q ../../example/hash_map/rocq cjr.examples
--Q ../../example/most_frequent/rocq cjr.examples
--Q ../../example/misc/rocq cjr.examples
--Q ../../tools/extraction/rocq cjr.examples
--Q rocq cjr.aes_ige
--Q ../../example/quadtree cjr.quadtree
--arg -w
--arg +admitted-proof
--arg -w
--arg +deprecated-syntactic-definition
--arg -w
--arg +fragile-hint-constr
-rocq/bytes.v
-rocq/block.v
+-R /Users/danghica/cjr/cjr-core/theories cjr
+-Q /Users/danghica/cjr/cjr-core/tools/extraction/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-core/example/generics/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-core/example/misc/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/array/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/array_list/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/hash_map/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/list/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/list_rev/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/most_frequent/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/poly_array/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/qsort/rocq cjr.examples
+-Q /Users/danghica/cjr/cjr-collections/example/quadtree cjr.quadtree
+-Q /Users/danghica/cjr/cjr-crypto/example/aes_ige/rocq cjr.aes_ige
+-Q /Users/danghica/cjr/cjr-crypto/example/authenticator/core/rocq cjr.authenticator
+-Q /Users/danghica/cjr/cjr-crypto/extraction cjr.crypto
+-Q /Users/danghica/cjr/cjr-crypto/audit cjr.audit
 rocq/aes.v
-rocq/ige.v
-rocq/program.v
-rocq/extract.v
-rocq/refinement.v
-rocq/vectors.v
-rocq/memory.v
-rocq/kernels.v
-rocq/expansion.v
-rocq/routines.v
+rocq/block.v
+rocq/bytes.v
 rocq/calls.v
-rocq/syntax.v
-rocq/ige_syntax.v
-rocq/rejection.v
-rocq/index_bounds.v
-rocq/mode.v
-rocq/encrypt_10.v
-rocq/encrypt_12.v
-rocq/encrypt_14.v
+rocq/cipher.v
+rocq/composition.v
 rocq/decrypt_10.v
 rocq/decrypt_12.v
 rocq/decrypt_14.v
-rocq/cipher.v
+rocq/encrypt_10.v
+rocq/encrypt_12.v
+rocq/encrypt_14.v
+rocq/expansion.v
+rocq/extract.v
+rocq/ige.v
+rocq/ige_refinement.v
+rocq/ige_syntax.v
+rocq/index_bounds.v
+rocq/kernels.v
 rocq/key_layout.v
 rocq/layout.v
-rocq/ige_refinement.v
-rocq/composition.v
+rocq/memory.v
+rocq/mode.v
+rocq/program.v
+rocq/refinement.v
+rocq/rejection.v
+rocq/routines.v
+rocq/syntax.v
+rocq/vectors.v

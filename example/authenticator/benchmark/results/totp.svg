@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 176" role="img">
+<title>totp benchmark medians and IQR</title>
+<style>text{font:12px system-ui;fill:#26333a}.axis{stroke:#9aa7aa}.grid{stroke:#e4e9e9}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="24" font-size="17">totp · median and IQR</text>
+<circle cx="250" cy="44" r="5" fill="#176f76"/><text x="260" y="48">CJR</text>
+<path d="M 230.0 65 V 141" class="grid"/><text x="230.0" y="159" text-anchor="middle">0.00</text>
+<path d="M 392.5 65 V 141" class="grid"/><text x="392.5" y="159" text-anchor="middle">817.14</text>
+<path d="M 555.0 65 V 141" class="grid"/><text x="555.0" y="159" text-anchor="middle">1634.28</text>
+<path d="M 717.5 65 V 141" class="grid"/><text x="717.5" y="159" text-anchor="middle">2451.42</text>
+<path d="M 880.0 65 V 141" class="grid"/><text x="880.0" y="159" text-anchor="middle">3268.55</text>
+<text x="555" y="177" text-anchor="middle">Time (ns per operation; lower is faster)</text>
+<text x="18" y="80">totp · n=20</text>
+<g><title>CJR: median 3249.1455, Q1 3230.2246, Q3 3268.5547 ns/op</title><path d="M 872.4 90 H 880.0" stroke="#176f76" stroke-width="2"/><circle cx="876.1" cy="90" r="4" fill="#176f76"/><text x="900" y="94">CJR 3249.15 ns/op</text></g>
+</svg>
