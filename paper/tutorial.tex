@@ -1,0 +1,246 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{listings}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{linktoc=all}
+\setcounter{tocdepth}{2}
+\makeatletter
+\renewcommand{\l@subsection}{\@dottedtocline{2}{1.5em}{3.4em}}
+\makeatother
+\usetikzlibrary{arrows.meta,calc,positioning}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+
+\title{CJR Cryptography: AES, IGE, and an Authenticator}
+\author{Dan R. Ghica}
+\date{\today}
+
+\lstdefinestyle{coq}{
+  basicstyle=\ttfamily\small,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  breaklines=true,
+  frame=single,
+  framerule=0.3pt,
+  xleftmargin=0.4em,
+  xrightmargin=0.4em,
+  aboveskip=0.8em,
+  belowskip=0.8em,
+  literate={Σ}{{$\Sigma$}}1
+           {↦ₛ}{{$\mapsto_s$}}2
+           {↦ₒ}{{$\mapsto_o$}}2
+           {λ}{{$\lambda$}}1
+           {↦ₒ}{{$\mapsto_o$}}2
+           {→}{{$\rightarrow$}}1
+           {∀}{{$\forall$}}1
+           {∃}{{$\exists$}}1
+           {∗}{{$*$}}1
+           {⌜}{{$\ulcorner$}}1
+           {⌝}{{$\urcorner$}}1
+           {≤}{{$\leq$}}1
+           {∧}{{$\land$}}1
+           {∨}{{$\lor$}}1
+           {∈}{{$\in$}}1
+           {⊢}{{$\vdash$}}1
+           {≠}{{$\neq$}}1
+           {∉}{{$\notin$}}1
+           {∅}{{$\emptyset$}}1
+}
+\lstset{style=coq}
+
+\newcommand{\cjr}{CJR}
+\newcommand{\sem}[1]{[\![#1]\!]}
+\newcommand{\step}{\longrightarrow}
+\newcommand{\steps}{\longrightarrow^{*}}
+\newcommand{\Stuck}{\mathsf{stuck}}
+\newcommand{\WF}{\mathsf{wf}}
+\newcommand{\dom}{\operatorname{dom}}
+\newcommand{\lookup}[2]{#1(#2)}
+\newcommand{\None}{\mathsf{None}}
+\newcommand{\Some}{\mathsf{Some}}
+\newcommand{\Unit}{\mathsf{()}}
+\newcommand{\True}{\mathsf{true}}
+\newcommand{\False}{\mathsf{false}}
+\newcommand{\NULL}{\mathsf{null}}
+\newcommand{\pts}{\mathrel{\mapsto}}
+\newcommand{\ptss}{\mathrel{\mapsto_{s}}}
+\newcommand{\ptsr}{\mathrel{\mapsto_{r}}}
+\newcommand{\ptsb}{\mathrel{\mapsto_{b}}}
+\newcommand{\ptso}{\mathrel{\mapsto_{o}}}
+\newcommand{\sep}{\mathbin{*}}
+\newcommand{\bigsep}{\mathop{\scalebox{1.4}{$\ast$}}}
+\newcommand{\wand}{\mathbin{-\!\!*}}
+\newcommand{\later}{\mathop{\triangleright}}
+\newcommand{\Wpre}{\mathsf{wp}}
+\newcommand{\GWpre}{\mathsf{gwp}}
+\newcommand{\pure}[1]{\ulcorner #1 \urcorner}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+\section{Setup and proof boundary}
+This repository uses CJR Core and the Coq 8.20.1, stdpp 1.12.0, Iris 4.4.0 toolchain. Read the local README for pinned dependency paths. The CJR logic reasons about its operational model; printing, native compilation, machine integer overflow, and external adapters require separate care. Proofs were not revalidated during this migration.
+\input{paper/aes.tex}
+
+\section{Authenticator: from cryptographic kernels to an application}
+The authenticator implements SHA-1, HMAC-SHA-1, HOTP/TOTP, Base32 enrollment,
+account management, and memory-only sessions. The executable CJR terms are
+printed as Cangjie. A command-line adapter and a macOS SwiftUI adapter call
+this same core; their port and bridge layers handle input and presentation.
+Secrets are synthetic in tests and benchmarks. Sessions do not implement
+persistent encrypted storage, backup, or cross-device synchronization.
+\subsection{Data flow and representation}
+Enrollment decodes a Base32 secret, validates account metadata, and allocates
+an account slot in a session. Account identifiers survive rename operations;
+lookup and listing expose metadata without intentionally returning secret
+material. Pointer blocks represent bytes using Int64 words, with explicit
+lengths, capacities, and caller-owned output buffers. The memory predicates
+connect these concrete layouts to account and session models.
+\subsection{SHA-1 and HMAC}
+SHA-1 pads the message, expands each block into a schedule, executes eighty
+rounds, and combines the state with the previous digest state. The HMAC
+construction normalizes its key and hashes the inner and outer padded keys.
+The proof modules separately describe padding, round arithmetic, buffer
+ownership, input bounds, and composition. A theorem's hypotheses and covered
+entry point determine its guarantee; kernel contracts must not be mistaken
+for an unconditional whole-application security result.
+\subsection{HOTP, TOTP, and enrollment}
+HOTP authenticates an eight-byte counter with HMAC-SHA-1, dynamically
+truncates its digest, and reduces the result to the selected decimal width.
+TOTP obtains the counter from the timestamp and period. Boundary tests cover
+period transitions and large timestamps. Base32 tests exercise padding,
+case variation, malformed input, and decoded-size bounds. Runtime oracles
+use independent Python hashlib, hmac, and base64 implementations and RFC
+fixtures; agreement is runtime evidence rather than a formal proof.
+\subsection{Frontend trust boundary}
+The CLI accepts enrollment and account commands through its port layer.
+The SwiftUI adapter passes operations through a C-compatible bridge and
+presents account metadata and generated codes. These adapters remain outside
+the CJR logic. Their build scripts require matching prior proof and runtime
+evidence and must retain those gates after relocation. Native compilation,
+FFI layout, platform libraries, input handling, and the printer remain part
+of the target-program trust boundary.
+\subsection{Reading the source}
+Read core/rocq/model.v and accounts.v first, then program.v and refinement.v.
+The sha1, crypto, base32, account, and session modules separate mathematical
+models from executable statements and ownership contracts. contracts.json
+records the intended public contract surface. The core test suite, URI
+fixtures, CLI tests, and Swift integration tests exercise different boundaries.
+The benchmark chapter measures kernels and session operations separately.
+
+\section{Migration and current runtime evidence}
+Proofs were not revalidated during this repository split. Historical proof reports retain their original dates and provenance. Runtime timings measure generated native programs and do not establish cryptographic security or compiler correctness.
+\input{paper/current-benchmarks.tex}
+
+\begin{thebibliography}{99}
+\addcontentsline{toc}{section}{References}
+
+\bibitem{cangjie-docs}
+Cangjie documentation, version 1.0.0.
+\url{https://docs.cangjie-lang.cn/en/docs/1.0.0/}.
+
+\bibitem{reynolds-lics02}
+John C. Reynolds.
+Separation logic: A logic for shared mutable data structures.
+In \emph{Proceedings of LICS}, pages 55--74. IEEE, 2002.
+
+\bibitem{ohearn-csl01}
+Peter W. O'Hearn, John C. Reynolds, and Hongseok Yang.
+Local reasoning about programs that alter data structures.
+In \emph{Proceedings of CSL}, volume 2142 of \emph{LNCS}, pages 1--19. Springer, 2001.
+
+\bibitem{iris-popl15}
+Ralf Jung, David Swasey, Filip Sieczkowski, Kasper Svendsen, Aaron Turon, Lars Birkedal, and Derek Dreyer.
+Iris: Monoids and invariants as an orthogonal basis for concurrent reasoning.
+In \emph{Proceedings of POPL}, pages 637--650. ACM, 2015.
+
+\bibitem{iris-essence}
+Robbert Krebbers, Ralf Jung, Ale\v{s} Bizjak, Jacques-Henri Jourdan, Derek Dreyer, and Lars Birkedal.
+The essence of higher-order concurrent separation logic.
+In \emph{Proceedings of ESOP}, volume 10201 of \emph{LNCS}, pages 696--723. Springer, 2017.
+
+\bibitem{iris-ground-up}
+Ralf Jung, Robbert Krebbers, Jacques-Henri Jourdan, Ale\v{s} Bizjak, Lars Birkedal, and Derek Dreyer.
+Iris from the ground up: A modular foundation for higher-order concurrent separation logic.
+\emph{Journal of Functional Programming}, 28:e20, 2018.
+
+\bibitem{iris-ipm}
+Robbert Krebbers, Amin Timany, and Lars Birkedal.
+Interactive proofs in higher-order concurrent separation logic.
+In \emph{Proceedings of POPL}, pages 205--217. ACM, 2017.
+
+\bibitem{iris-notes}
+Lars Birkedal and Ale\v{s} Bizjak.
+Lecture notes on Iris: Higher-order concurrent separation logic.
+\url{https://iris-project.org/pdfs/iris-lecture-notes.pdf}.
+
+\bibitem{iris-coq}
+The Iris Project.
+The Iris Coq development, version 4.4.0, including HeapLang.
+\url{https://gitlab.mpi-sws.org/iris/iris}.
+
+\bibitem{coq}
+The Coq Development Team.
+The Coq proof assistant, version 8.20.1.
+\url{https://coq.inria.fr/}.
+
+\bibitem{stdpp}
+The Iris Project.
+coq-std++, version 1.12.0.
+\url{https://gitlab.mpi-sws.org/iris/stdpp}.
+
+\bibitem{cangjie-exceptions}
+Cangjie development guide, version 1.0.5.
+Throwing and handling exceptions (Chinese-language edition).
+\url{https://docs.cangjie-lang.cn/docs/1.0.5/dev-guide/source_zh_cn/error_handle/handle.html}.
+
+\bibitem{hazel-popl21}
+Paulo Em\'ilio de Vilhena and Fran\c{c}ois Pottier.
+A separation logic for effect handlers.
+\emph{Proceedings of the ACM on Programming Languages}, 5(POPL), article 33, pages 1--28, 2021.
+\url{https://doi.org/10.1145/3434314}.
+
+\bibitem{teslogic-esop23}
+Paulo Em\'ilio de Vilhena and Fran\c{c}ois Pottier.
+A type system for effect handlers and dynamic labels.
+In \emph{Proceedings of ESOP}, volume 13990 of \emph{LNCS}, pages 225--252. Springer, 2023.
+\url{https://doi.org/10.1007/978-3-031-30044-8_9}.
+
+\bibitem{reloc-lmcs21}
+Dan Frumin, Robbert Krebbers, and Lars Birkedal.
+ReLoC Reloaded: A mechanized relational logic for fine-grained concurrency and logical atomicity.
+\emph{Logical Methods in Computer Science}, 17(3), article 9, pages 1--59, 2021.
+\url{https://doi.org/10.46298/LMCS-17(3:9)2021}.
+
+\bibitem{cosmo-icfp20}
+Glen M\'evel, Jacques-Henri Jourdan, and Fran\c{c}ois Pottier.
+Cosmo: A concurrent separation logic for Multicore OCaml.
+\emph{Proceedings of the ACM on Programming Languages}, 4(ICFP), article 96, pages 1--29, 2020.
+\url{https://doi.org/10.1145/3408978}.
+
+\bibitem{actris-lmcs22}
+Jonas Kastberg Hinrichsen, Jesper Bengtson, and Robbert Krebbers.
+Actris 2.0: Asynchronous session-type based reasoning in separation logic.
+\emph{Logical Methods in Computer Science}, 18(2), article 16, pages 1--64, 2022.
+\url{https://doi.org/10.46298/LMCS-18(2:16)2022}.
+
+\bibitem{blaze-popl26}
+Paulo Em\'ilio de Vilhena, Simcha van Collem, Ines Wright, and Robbert Krebbers.
+A relational separation logic for effect handlers.
+\emph{Proceedings of the ACM on Programming Languages}, 10(POPL), article 34, pages 981--1009, 2026.
+\url{https://doi.org/10.1145/3776676}.
+Rocq formalization: \url{https://github.com/DeVilhena-Paulo/blaze}.
+
+\end{thebibliography}
+\end{document}
