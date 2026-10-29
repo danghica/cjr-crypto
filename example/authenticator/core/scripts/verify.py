@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check every authenticator proof object and audit every declared theorem."""
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime,timezone
 import hashlib
 import json
 import os
@@ -12,6 +13,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[4]
 CORE = ROOT / 'example/authenticator/core'
 sys.path.insert(0, os.environ.get('CJR_CORE_DIR', str(ROOT.parent/'cjr-core')))
+os.environ.setdefault('CJR_PROJECT_ROOT', str(ROOT))
 from tools.project_tools.examples import coq_flags
 
 
@@ -61,7 +63,7 @@ def main():
     closed = audit_text.count('Closed under the global context')
     passed = (checked.returncode == audit.returncode == 0 and closed == len(declarations)
               and not re.search(r'\bError:|^Axioms:', audit_text, re.M))
-    report = dict(status='passed' if passed else 'failed', coverage='listed_export_contracts',
+    report = dict(date_utc=datetime.now(timezone.utc).isoformat(), status='passed' if passed else 'failed', coverage='listed_export_contracts',
                   contracts=contracts, trusted_boundary=manifest['trusted_boundary'],
                   contract_manifest_sha256=hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
                   remaining_obligations='example/authenticator/docs/proof-status.html', modules=modules,

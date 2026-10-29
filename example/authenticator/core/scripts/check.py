@@ -15,6 +15,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[4]
 PROJECT = ROOT / 'example/authenticator/core'
 sys.path.insert(0, os.environ.get('CJR_CORE_DIR', str(ROOT.parent/'cjr-core')))
+os.environ.setdefault('CJR_PROJECT_ROOT', str(ROOT))
 from tools.project_tools.examples import coq_flags
 from tools.project_tools.support import toolchain
 

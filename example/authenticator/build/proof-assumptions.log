@@ -1,0 +1,1469 @@
+Welcome to Coq 8.20.1
+[Loading ML file ring_plugin.cmxs (using legacy method) ... done]
+[Loading ML file zify_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_core_plugin.cmxs (using legacy method) ... done]
+[Loading ML file micromega_plugin.cmxs (using legacy method) ... done]
+[Loading ML file btauto_plugin.cmxs (using legacy method) ... done]
+[Loading ML file ssrmatching_plugin.cmxs (using legacy method) ... done]
+[Loading ML file ssreflect_plugin.cmxs (using legacy method) ... done]
+[Loading ML file ltac2_plugin.cmxs (using legacy method) ... done]
+[Loading ML file ltac2_ltac1_plugin.cmxs (using legacy method) ... done]
+Fetching opaque proofs from disk for cjr.authenticator.account_bounds
+Fetching opaque proofs from disk for Coq.micromega.ZMicromega
+Fetching opaque proofs from disk for Coq.micromega.Tauto
+Fetching opaque proofs from disk for Coq.Classes.Morphisms
+Fetching opaque proofs from disk for Coq.Init.Logic
+Fetching opaque proofs from disk for Coq.micromega.Refl
+Fetching opaque proofs from disk for Coq.Bool.Bool
+Fetching opaque proofs from disk for Coq.micromega.RingMicromega
+Fetching opaque proofs from disk for Coq.micromega.OrderedRing
+Fetching opaque proofs from disk for Coq.setoid_ring.InitialRing
+Fetching opaque proofs from disk for Coq.setoid_ring.Ring_theory
+Fetching opaque proofs from disk for Coq.ZArith.BinInt
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZAdd
+Fetching opaque proofs from disk for Coq.PArith.BinPos
+Fetching opaque proofs from disk for Coq.Structures.OrdersFacts
+Fetching opaque proofs from disk for Coq.Init.Datatypes
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZBase
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZMul
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZAdd
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZBase
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZOrder
+Fetching opaque proofs from disk for Coq.Structures.OrdersTac
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZAddOrder
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZMulOrder
+Fetching opaque proofs from disk for Coq.Classes.Morphisms_Prop
+Fetching opaque proofs from disk for Coq.ZArith.Zbool
+Fetching opaque proofs from disk for Coq.micromega.EnvRing
+Fetching opaque proofs from disk for Coq.micromega.Env
+Fetching opaque proofs from disk for Coq.setoid_ring.Ring_polynom
+Fetching opaque proofs from disk for Coq.setoid_ring.BinList
+Fetching opaque proofs from disk for Coq.NArith.BinNat
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NSub
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NBase
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NAdd
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NOrder
+Fetching opaque proofs from disk for Coq.setoid_ring.ZArithRing
+Fetching opaque proofs from disk for Coq.ZArith.Zpow_def
+Fetching opaque proofs from disk for Coq.ZArith.Zorder
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZAddOrder
+Fetching opaque proofs from disk for Coq.ZArith.auxiliary
+Fetching opaque proofs from disk for Coq.Arith.PeanoNat
+Fetching opaque proofs from disk for Coq.Init.Peano
+Fetching opaque proofs from disk for Coq.Lists.List
+Fetching opaque proofs from disk for Coq.ZArith.Znumtheory
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZMul
+Fetching opaque proofs from disk for Coq.ZArith.Zdiv
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZDivFloor
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZDiv
+Fetching opaque proofs from disk for Coq.ZArith.Zmax
+Fetching opaque proofs from disk for Coq.Structures.GenericMinMax
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZGcd
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZGcd
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZLt
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZSgnAbs
+Fetching opaque proofs from disk for Coq.micromega.ZifyClasses
+Fetching opaque proofs from disk for Coq.ZArith.Znat
+Fetching opaque proofs from disk for Coq.Arith.Compare_dec
+Fetching opaque proofs from disk for Coq.NArith.Nnat
+Fetching opaque proofs from disk for Coq.PArith.Pnat
+Fetching opaque proofs from disk for Coq.Structures.Equalities
+Fetching opaque proofs from disk for Coq.micromega.Ztac
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.sessions
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_slots
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_code
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for iris.algebra.ofe
+Fetching opaque proofs from disk for stdpp.base
+Fetching opaque proofs from disk for stdpp.option
+Fetching opaque proofs from disk for iris.algebra.stepindex_finite
+Fetching opaque proofs from disk for iris.base_logic.upred
+Fetching opaque proofs from disk for iris.algebra.cmra
+Fetching opaque proofs from disk for Coq.ssr.ssreflect
+Fetching opaque proofs from disk for iris.algebra.gmap
+Fetching opaque proofs from disk for stdpp.gmap
+Fetching opaque proofs from disk for stdpp.tactics
+Fetching opaque proofs from disk for stdpp.proof_irrel
+Fetching opaque proofs from disk for Coq.micromega.ZifyInst
+Fetching opaque proofs from disk for stdpp.countable
+Fetching opaque proofs from disk for stdpp.fin_maps
+Fetching opaque proofs from disk for stdpp.well_founded
+Fetching opaque proofs from disk for stdpp.list_relations
+Fetching opaque proofs from disk for stdpp.list_basics
+Fetching opaque proofs from disk for Coq.Sorting.Permutation
+Fetching opaque proofs from disk for stdpp.list_monad
+Fetching opaque proofs from disk for stdpp.orders
+Fetching opaque proofs from disk for iris.algebra.cofe_solver
+Fetching opaque proofs from disk for iris.algebra.stepindex
+Fetching opaque proofs from disk for stdpp.numbers
+Fetching opaque proofs from disk for Coq.Classes.RelationClasses
+Fetching opaque proofs from disk for iris.base_logic.bi
+Fetching opaque proofs from disk for Coq.QArith.Qcanon
+Fetching opaque proofs from disk for Coq.QArith.Qreduction
+Fetching opaque proofs from disk for iris.algebra.agree
+Fetching opaque proofs from disk for Coq.QArith.QArith_base
+Fetching opaque proofs from disk for Coq.Logic.Eqdep_dec
+Fetching opaque proofs from disk for Coq.ZArith.Zcompare
+Fetching opaque proofs from disk for iris.algebra.dfrac
+Fetching opaque proofs from disk for stdpp.sets
+Fetching opaque proofs from disk for iris.algebra.view
+Fetching opaque proofs from disk for iris.algebra.lib.gmap_view
+Fetching opaque proofs from disk for stdpp.decidable
+Fetching opaque proofs from disk for stdpp.coPset
+Fetching opaque proofs from disk for iris.algebra.coPset
+Fetching opaque proofs from disk for stdpp.mapset
+Fetching opaque proofs from disk for iris.algebra.gset
+Fetching opaque proofs from disk for iris.algebra.auth
+Fetching opaque proofs from disk for iris.algebra.numbers
+Fetching opaque proofs from disk for iris.proofmode.classes
+Fetching opaque proofs from disk for iris.bi.interface
+Fetching opaque proofs from disk for iris.bi.derived_laws
+Fetching opaque proofs from disk for iris.base_logic.lib.ghost_map
+Fetching opaque proofs from disk for iris.base_logic.lib.own
+Fetching opaque proofs from disk for stdpp.fin
+Fetching opaque proofs from disk for iris.program_logic.weakestpre
+Fetching opaque proofs from disk for iris.base_logic.lib.fancy_updates
+Fetching opaque proofs from disk for iris.algebra.big_op
+Fetching opaque proofs from disk for iris.base_logic.lib.later_credits
+Fetching opaque proofs from disk for iris.bi.updates
+Fetching opaque proofs from disk for iris.bi.derived_laws_later
+Fetching opaque proofs from disk for iris.proofmode.class_instances
+Fetching opaque proofs from disk for iris.proofmode.coq_tactics
+Fetching opaque proofs from disk for iris.proofmode.environments
+Fetching opaque proofs from disk for iris.proofmode.base
+Fetching opaque proofs from disk for iris.algebra.monoid
+Fetching opaque proofs from disk for iris.bi.big_op
+Fetching opaque proofs from disk for iris.proofmode.class_instances_updates
+Fetching opaque proofs from disk for iris.proofmode.modalities
+Fetching opaque proofs from disk for iris.proofmode.class_instances_frame
+Fetching opaque proofs from disk for iris.proofmode.class_instances_make
+Fetching opaque proofs from disk for iris.proofmode.modality_instances
+Fetching opaque proofs from disk for iris.proofmode.class_instances_later
+Fetching opaque proofs from disk for stdpp.nat_cancel
+Fetching opaque proofs from disk for iris.base_logic.lib.wsat
+Fetching opaque proofs from disk for iris.algebra.functions
+Fetching opaque proofs from disk for iris.base_logic.proofmode
+Fetching opaque proofs from disk for iris.base_logic.derived
+Fetching opaque proofs from disk for iris.base_logic.lib.iprop
+Fetching opaque proofs from disk for iris.base_logic.algebra
+Fetching opaque proofs from disk for iris.program_logic.ectx_language
+Fetching opaque proofs from disk for iris.program_logic.ectxi_language
+Fetching opaque proofs from disk for cjr.lang
+Fetching opaque proofs from disk for cjr.primitive_laws
+Fetching opaque proofs from disk for iris.program_logic.language
+Fetching opaque proofs from disk for iris.program_logic.ectx_lifting
+Fetching opaque proofs from disk for iris.program_logic.lifting
+Fetching opaque proofs from disk for cjr.examples.array
+Fetching opaque proofs from disk for iris.bi.weakestpre
+Fetching opaque proofs from disk for stdpp.fin_map_dom
+Fetching opaque proofs from disk for iris.algebra.updates
+Fetching opaque proofs from disk for iris.algebra.proofmode_classes
+Fetching opaque proofs from disk for iris.bi.plainly
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NAddOrder
+Fetching opaque proofs from disk for cjr.authenticator.memory
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.crypto_composition
+Fetching opaque proofs from disk for cjr.authenticator.crypto_totp
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZDivTrunc
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hmac_entry
+Fetching opaque proofs from disk for cjr.authenticator.input_memory
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hmac
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hmac_key
+Fetching opaque proofs from disk for cjr.authenticator.model
+Fetching opaque proofs from disk for cjr.authenticator.crypto_bounds
+Fetching opaque proofs from disk for cjr.authenticator.crypto_buffers
+Fetching opaque proofs from disk for cjr.authenticator.memory_calls
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZBits
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZLog
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZPow
+Fetching opaque proofs from disk for Coq.Numbers.NatInt.NZParity
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZMulOrder
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NBits
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hotp_entry
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hotp
+Fetching opaque proofs from disk for cjr.authenticator.encoding
+Fetching opaque proofs from disk for stdpp.list_numbers
+Fetching opaque proofs from disk for cjr.authenticator.refinement
+Fetching opaque proofs from disk for cjr.authenticator.crypto_truncate
+Fetching opaque proofs from disk for cjr.authenticator.memory_application
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.sha1_entry
+Fetching opaque proofs from disk for cjr.authenticator.sha1_compute
+Fetching opaque proofs from disk for cjr.authenticator.padding_native
+Fetching opaque proofs from disk for cjr.authenticator.padding_memory
+Fetching opaque proofs from disk for cjr.authenticator.padding
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NDiv
+Fetching opaque proofs from disk for Coq.Numbers.Natural.Abstract.NDiv0
+Fetching opaque proofs from disk for cjr.authenticator.encoding_arithmetic
+Fetching opaque proofs from disk for cjr.authenticator.sha1_state
+Fetching opaque proofs from disk for cjr.authenticator.sha1_loop
+Fetching opaque proofs from disk for cjr.authenticator.sha1_iteration
+Fetching opaque proofs from disk for Coq.Numbers.Integer.Abstract.ZLcm
+Fetching opaque proofs from disk for cjr.authenticator.sha1_compress
+Fetching opaque proofs from disk for cjr.authenticator.sha1_memory
+Fetching opaque proofs from disk for cjr.authenticator.round_model
+Fetching opaque proofs from disk for cjr.authenticator.sha1_rounds
+Fetching opaque proofs from disk for cjr.authenticator.round_kernel
+Fetching opaque proofs from disk for cjr.authenticator.sha1_blocks
+Fetching opaque proofs from disk for iris.bi.telescopes
+Fetching opaque proofs from disk for stdpp.telescopes
+Fetching opaque proofs from disk for cjr.authenticator.sha1_digest
+Fetching opaque proofs from disk for cjr.authenticator.encoding_stack
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_enroll
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_enroll_entry
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.base32_input
+Fetching opaque proofs from disk for cjr.authenticator.base32_contracts
+Fetching opaque proofs from disk for cjr.authenticator.base32_decoder
+Fetching opaque proofs from disk for cjr.authenticator.base32_refinement
+Fetching opaque proofs from disk for cjr.authenticator.base32_stream
+Fetching opaque proofs from disk for cjr.authenticator.base32
+Fetching opaque proofs from disk for cjr.authenticator.account_enroll_guard
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_validation
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_enroll_representation
+Fetching opaque proofs from disk for cjr.authenticator.account_layout
+Fetching opaque proofs from disk for cjr.authenticator.account_model
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_rename_representation
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_representation
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.accounts
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_refinement
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.account_rename
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.core_accounts
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.core_crypto
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hmac_inputs
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.crypto_hmac_reject
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.crypto_refinement
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.crypto_reject_composition
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.otp_bounds
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.sha1_bounds
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.otp_execution_bounds
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.sha_execution_bounds
+Closed under the global context
+Fetching opaque proofs from disk for Coq.Logic.Decidable
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Fetching opaque proofs from disk for cjr.authenticator.sha1_reject
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+Closed under the global context
+
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
+Coq < 
