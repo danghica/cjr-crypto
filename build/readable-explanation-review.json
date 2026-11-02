@@ -1,0 +1,1219 @@
+{
+  "reviewed_utc": "2026-11-02T17:14:56.169220+00:00",
+  "method": "Codex reviewed the displayed explanations against proof-free source statements and related definitions, checking premises, bounds, ownership, result claims and partial correctness versus termination. Automated checks bind this review to the regenerated HTML and reports.",
+  "scope": "All available explanations in the current readable build. Missing explanations were left explicitly unavailable. English text is reviewed, not formally verified.",
+  "fresh_symbol_data": true,
+  "declarations": 1228,
+  "explanations_reviewed": 160,
+  "explanations_unavailable": 1068,
+  "unsupported_notices": 1349,
+  "reports": [
+    {
+      "report": "example/aes_ige/docs/rocq/report.json",
+      "sha256": "306bb6c909289496a7076fa0ad9bb1b68e41ca044955d03de76ab2b645a448a2"
+    },
+    {
+      "report": "example/authenticator/docs/rocq/report.json",
+      "sha256": "d03e8e88f87ad00adcdc4784df9a618e6e555a99a79a163db9faad76a394c04b"
+    }
+  ],
+  "entries": [
+    {
+      "identity": "cjr.authenticator.accounts.account",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "104e46312cfae23df8d2e7df2f8de5f024ea6a95fe697d46c80f0d44949a44a2",
+      "description_sha256": "755110fe3b269a1b7ae08a4b59967a585d7a563e1f7945f19ec0ad99f003cdb2",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.account_valid",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "c9a90cad58f5c09c46b9d0982f7829b885d1d579c5b5298ee64979d81d3d87cc",
+      "description_sha256": "b314250eca31bc905ee44e3baf48ea77d205693a3d05d51d6a2a5d8b3fc97d10",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.byte_check_spec",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "8807a41f8ace896c767cb1f25edfb4294460463b01a6d8607a18df7b5e67c791",
+      "description_sha256": "8aa7d24ddaa0bc4cd5216d329eb87d525d6d40b63a0db64aa67b2bc664ca6887",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.code_for",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "ef98f952465adeb97bccac04c5af278fa9fffb6daa417ad8c0ea5fd19d95200a",
+      "description_sha256": "2a0d8766b406eab865198f36072466b394883b03b21e4a883cf133c5fc3b21fb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.empty_session",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "f6071ed7a2e95c79d69421daf234be57d58fd40ad2c70ededb25d5e38b0280bd",
+      "description_sha256": "472475372884e7e21dbf57582d1268fc45220329b361437077dd4e1af89ca712",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.empty_session_valid",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "ee29d8ba5b1666b9449ca2af76f58c93301ba5eeb02e3351887d033dc4214d5f",
+      "description_sha256": "904615feb4c26571a22aa0d8bdcee5d02c343240da5f42dfca400b898c5c2289",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.enroll",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "318e9d8df36d6d7b602ed3b22cb8362dbd36ab7a27db43fc49e79f4683d41029",
+      "description_sha256": "8f77d473b250563f8e2d04f2da8ff90cb6d31c4d80034ada5384a08096d5a962",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.enroll_failure_atomic",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "40cd439521b961238a10d29702f8f8eb1e111b3d137c225a4748356fbaadedbd",
+      "description_sha256": "6d7e0c27af4618e43e742c6872295a27020fc3a59b730fcffab73f3e44061b70",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.enroll_preserves_validity",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "f1ea68f5f29ad1fa129af71540db8fd71bfb06721e753ef9d368d02b5341c0a4",
+      "description_sha256": "652c456934e5aeee7908bf5b6f37b6cd996e04a0cb71ef1b3323fe360d7d7e8c",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.find_account",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "c120c770cd2c83a0223225c4d5d3431a0cdcfea7addeffe8cf74ef71b38531ef",
+      "description_sha256": "22995dc7bb39552930f0b9ef7535b331ae2476843c75212dff8c724b565c0c02",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.metadata",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "7729c2bb144bd1d47adb08a0410cc0d28e4b3c268c4dc2f67e8b1979d8d97e57",
+      "description_sha256": "7d36eb3f919fe4be0a391287d3e46eecf8698d19d2c90f168fe8e6d3274e2fc1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.remove_account",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "fba2b922ce94e99a019cdd675696153783e36513b9d075abc398f853e2863255",
+      "description_sha256": "e9524259fe54e3778bb87c04b5ee6fe7f21ab97367371671dae8ddd8a1e601bc",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.remove_preserves_validity",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "c9fbdc90552b56b3d399e2f07209642fb7a6503f125e1b41b5444317aec5765b",
+      "description_sha256": "0e3f2a74b4cb4ee669b8db08f240e20171f492039fdfd7fe72ec1bb4901d98e7",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.removed_account_absent",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "a536c05b5848ded5b1f8176c2afd98cf1a7e8d398ad40f376e40fa71f0529188",
+      "description_sha256": "38c6343f10b9e163cce0349ab663807ba386c6a9b3def079940651be6a29c4e0",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.session",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "4f3b78ba9c55ed34d6c57167c4e539d38e16699ed9b057b3623f9de1fe94e50e",
+      "description_sha256": "ff9405d5378ee564b25cde951d2388e5007cb8fa06b2c24fd88e1a660b59bf0f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.session_valid",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "3df84bd87e25f6ad8ef03a80f6a88b489c2467b689bb95e45fa67552dc3d7de0",
+      "description_sha256": "147f7478371189b00ca28028b1a5a8a7a8c89040bb343300cef2365d848505bc",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.valid_input",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "41c0a14c6257d9ad3aa4d0aa902dfe298ca143d0dafc4c858b180c25f8106f3e",
+      "description_sha256": "c17d47a5eef0d1e8b68bd72a28ec9ccdaa448aaf2d97bbe1777556ad10a489c1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.accounts.valid_input_spec",
+      "page": "example/authenticator/docs/rocq/core/rocq/accounts.html",
+      "declaration_sha256": "7e2ca19fdf6f492881f2c701a38a6ab8c4f6861c6aed9d25dacbb998b1ffae91",
+      "description_sha256": "8d61aca4c05fd71903869725f29867944096989943728ddcc9a6d175e35cb313",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.decode",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "576a90bbab603094c4734aca7dca3166c20e7106cbf83713b5f5a62c7413ae17",
+      "description_sha256": "e2bfaed10013c911776c3e66590ccc969767d09185421ff3ebbea529a00bfbd1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.decode_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "46f3f9617ffa7373145401488ee4c2b82e22f908a1836fd6b4a40bef8dae0ec6",
+      "description_sha256": "47c476ae7d50f5466c072fc45be78baeababe41b65bb0151dbbc8fd62c121f6f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.decode_f",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "5b9c6044bea3006189496b4480760e5fadc29111d203c5034d3ab090f0b37082",
+      "description_sha256": "6b819608eb9f1ba5968cd50376d7e7c2a77c9c162a3c2058ee863fa92e4854fc",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.decode_foobar",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "adfe15d7cf38a6eec37330f7841711e1a98c09f78df4e49e6cda417427b783e8",
+      "description_sha256": "c194e433649c5b8bd8cfc455ae8bdcdb5f2846c4c90b8741966376be00e55af7",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.decode_values",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "17e9744d80b02c82b205e5db09087a886bca956a23646451b88835536794ed87",
+      "description_sha256": "ca20a4bb2a87d105e7bf54d71fb57e7df0bbd03ab2d9ce4be74dbf2e0bd95387",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.decode_values_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "f49e4e62e044d01cd59b3495ecb35781cca21c13b10c2a257aafb8de8cf42c0f",
+      "description_sha256": "fe8d2e50bcc36465ffab355d260b8c59d18f63c211eb1524591ed4a91c670913",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.digit_value",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "aedf8e0ea4390508a4ba2d90edec651fa77573cff62b3a752d29dd196e44831c",
+      "description_sha256": "773734e2482caf5d9842e8eb6dce10dc4f11e612e3278a462b2022f1b3c89986",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.digit_value_range",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "58c1ccbd027167ad4323bf7616ed3f28408cdda7d7d9daf42a1353d44480a45b",
+      "description_sha256": "1728babbe1af4a0610890dbce65dc7437e6410ab8956851593e0721db1d1d9bb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.read_symbols",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "20ec27e857f77c00839f61554dcce682880cba03d172daaa9672a3b540022c3b",
+      "description_sha256": "15dac181e4b34f173ed893764b3d5a0d97229885998e9fa86bfd78cd603ab649",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.read_symbols_range",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "50a4f94aa20d6c87b285d064f36f4bdf0f20c22126a9a59dda318a4bcb03cd96",
+      "description_sha256": "d0338a8e627eceaee6a5662caae79cc2b2e04135580dea33865e88196713686b",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.reject_noncanonical_tail",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "2130f7c3a8fe6fe8b204651f381221bebaf699cee7f64fc138fd7108d0ec868e",
+      "description_sha256": "543a8aee95b5d918111fcdd60e33db24c56043e78c85754323de4c1939ca14a1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.base32.reject_padding_middle",
+      "page": "example/authenticator/docs/rocq/core/rocq/base32.html",
+      "declaration_sha256": "dea1ed682c41eedb3a8303119dd595f2166f7a6cbc2a729618b52ef180fbab4a",
+      "description_sha256": "837d5b175d0ba357eb08238d2dd0bc877903f9b83fcf6edb717b57d0b5a8f18b",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.extract.authenticator_cj",
+      "page": "example/authenticator/docs/rocq/core/rocq/extract.html",
+      "declaration_sha256": "a2d43a0bc936e57df7a290a6e085ce93f59d5d830a4d6c7a169d3cc573a86aab",
+      "description_sha256": "c51deec57cf53664c4020127458129f786a0900ee56cf5b0f20bd1cf77a728cd",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.extract.authenticator_program",
+      "page": "example/authenticator/docs/rocq/core/rocq/extract.html",
+      "declaration_sha256": "e6620d2b40fe2a4c4e4046928084f4e9552676a46c8d8bb6e68186cd56e43241",
+      "description_sha256": "31ff2e867a6c4c9022abc355f7390f6bea794b982c393990de080a9437f6b8fe",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.extract.ti",
+      "page": "example/authenticator/docs/rocq/core/rocq/extract.html",
+      "declaration_sha256": "8a42f955ac1f2a2c2f91de5bd201a8623f7565b056b1411439dfebccb82e4cc1",
+      "description_sha256": "d847b3d688d6d6a5ebe5d850fb4ebb6b0291722fcfcd415a79763bad09be9db1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.extract.tp",
+      "page": "example/authenticator/docs/rocq/core/rocq/extract.html",
+      "declaration_sha256": "ce2211fba953cb8afc822002badaf861acce3a3ba8db472901c51e03c7f43dec",
+      "description_sha256": "c2a66d2a94f7103d12feff6700ce8bb0c8e56a6fba128c9495a2675ea73dad62",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.be_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "6985aba5959ecd9528b419c72e0ac1b2e13fd6f0c0828ce9f5bd187ba5abdcab",
+      "description_sha256": "c1968e92a90dbda5c629b1658cf93409b33b4943a3ca421137aba06bf4c7a07c",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.be_bytes_are_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "6c6e62527016703c4861e69b8a38b8a9f8309ac428ab39f060b2e78c547f3cd5",
+      "description_sha256": "c9bc138ed985a7531e4ebb50606b9ba1593b6625657a2aa79c091509fe222995",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.be_bytes_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "b116c7629f1cbf15eb3f2c15e0606ad9842ce13439b83f299d0e6b6d8a5d080c",
+      "description_sha256": "d01267052a81e82c89211cb6883e98ca5c20ab81424942179bd3380ca7290f1e",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.be_word",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "06f7ccd2e22a19111bc6baff562456df50a028d3ddae2af4258c87b3aba23305",
+      "description_sha256": "97f4c46d4cd910db25f53e5f1e5778a4d99f33c6038be6f501ba3d966374d07d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.byte",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "d2b2ca0219724e5bc8c30097cac5756557afb813521df489c371ec0098a0b4cd",
+      "description_sha256": "5e36cd2d5c408814acc9972cbda52b94f29ae15dbbe6af15a7d01a115df3eb89",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.compress",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "9c499b9caa2c382d1ab06e2925d58eb89b084bc811e0b15a0f176ed52cad89a3",
+      "description_sha256": "8f2c9bcfce7b6c6c1e4eea26aac48efecb7363e0a1659d87b271494ad38437ad",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.compress_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "26d3eb635362505207fa83f74bad5a8525b9568f609e6053e9ffe7939af1af2c",
+      "description_sha256": "8e4c8d05fe08435e3ef9f9441d5c232f100cea9c2ba1704cfa04774f74fda831",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.compress_words",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "918f7346fcbc624c571fd911d88df58051c270f76046085e362d4bf92a9fa9c5",
+      "description_sha256": "8b963c3c617a856313ead63779fd049159b0f0fa831f91aed49319f10b5bd5bf",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.digest_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "6baad973e3e81cf786251964d211a4b44b81ca39e74a51544d5d816d57f46f74",
+      "description_sha256": "f0eabe64127b668ad658002235901335ed2567303ebfb882452df2a9c605c314",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.digest_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "3a61d6160b7d23fb228261343236fed392845d6ded27e3394abb380511dca194",
+      "description_sha256": "ab787cb68d6f8f4c1d31bdb92be547268d12217323e4ca6d37e1f1c835e8c7e4",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.fold_round_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "4e69977e046849b699599f32be33a6195f4c824fe3b11fb840066f8e0301fa3f",
+      "description_sha256": "daf28645188b93b0dff4d09c053b52bdd782c56f13c011671559c946ac32f7d5",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hash_blocks",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "393f99a1c7e656c74307e84d4b870e8e12eee5a2b061298306c870bb9b3ba953",
+      "description_sha256": "6dbec38825c322ccd7acc44f930cbdec57e21849c0f14dd39f35054988986522",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hash_blocks_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "b195345db0c1e5987c80172e0b4ec6d95b2381f921ef6150d2e8938658c02646",
+      "description_sha256": "ed7c50c46e8dbfceb7251fd716d26a3ff91f8fdfd70a022b398cfb389a81cabf",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hash_blocks_words",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "5b901439dc65035881eed5523d1835f26cf2d01cb10ae17fbf4bf84be7697ea7",
+      "description_sha256": "ead2ef610acd566b9e081e83ba1f3dad928735db5be78bdf0cb963d3d705d1d8",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hmac_output_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "34b478b0f4ebf9fb2ce87da7ebad7d2f6675c628495dbd919c0a54883ecf46a4",
+      "description_sha256": "091679f9a6cc1fe7033b344e0da04d6b7f9c858084e8c7c73e8c592b3f4facf1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hmac_output_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "4fd032e5ee9c6df4d8d1cc6d0ff4fd8f76ba45f8ca5aff9de550efcd1035ad51",
+      "description_sha256": "7dbb3a7ddfbbe42e9deda4095e915141ed5e3dd273e61bc674d9f562daf7577a",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hmac_sha1",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "66f2d79993e7e19e22a5a21e79db31e9bef46c0166bb7fea3463bbddb94b009b",
+      "description_sha256": "8980d93082874a736e4560348f0b7eaa5f68e6157950e548b5c644641f317412",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hotp",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "a592ae9529171b968dae094db3bbd491510b8af7ae67d25300121550b27fb8e1",
+      "description_sha256": "d7bf474682baf5e4f48c2da086775055f997a99b6e5eae63e7072a774019f7b6",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.hotp_range",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "e7633486f4f3cc269244614142fa73e13dfe38705e3ffd6434808845a3ad8e75",
+      "description_sha256": "97818b935b78ddfa71f08f138b555bd7ce790325b012a573441c15adf177c8c4",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.initial",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "96cfb85dee5c3d6a734cd4c0977a3cd38267e42b7cf79fe633430c2dcab7a20e",
+      "description_sha256": "4db4f0515f6a676983129eb31771b03aea360cb7327b8e20f0ca0d413be8f75c",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.initial_words",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "5b5d1d452495984b7431bcfdafbc4cbd8cc026e70c46a13a236918bdbc136a12",
+      "description_sha256": "530b4eee9fd619cf10511ae4bbaacba07ff6551b1f8bfcd371f79a6ff1dfa0d1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.int64",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "d1d86c907a2c27ca84e2f3b612ce5211f40674488e4ab3ac71efce57c066a596",
+      "description_sha256": "0ccd39d34c555a18e05a60eb67d6a5147985fe625f92c2242f90686eb9f23ff4",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.mask32",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "aae701ee3255ce4e5071a5beee2fef790c01caafa08ec444062566b7df2946e1",
+      "description_sha256": "4d6aa60aa578fd0980aaf83e3d2f7fc86474b09250c9d614454059004998036f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.mask32_word",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "0a45a2d3756f8581adf72901cf9795831ed91482beedf4c2d96a4ff236b12a5c",
+      "description_sha256": "48231224287d50c06f448806b3ce17d1a3f8700c154cd42911784ae0308d82de",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.message_words",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "f562bcc2620d8218394e5a1b659387f0b9674c85873480ddce4edc1861c6ba90",
+      "description_sha256": "c8eecaeea15d95e11e07c9190ccc640d11b1d27ea02081b758a4f596320f66ed",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.padded_length_arithmetic",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "92a7d969aa68a8c517c0fcebd903d9b8d7a789617bb221ba615529f1916a0903",
+      "description_sha256": "cfc657a83b6cbd84143a9e4e3e8318358d9664eaba4f948899e3752e137070dc",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.padding",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "d93dcda2527fe730b132e41da2e32e288cff2a584b778e9b65562433c6a8587d",
+      "description_sha256": "42e7b6c9259d9f97aff37fa4a1408c1efc0e94a2648b76993edad8ee28112525",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.remaining",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "c25b826b6af85a692676f4915cb0dad62acaa87a4d6460fb01d859a381f035f5",
+      "description_sha256": "d7404372b42f64fec4444bd47fb0d19e61004e5a937029bc9baa45294304bed0",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.remaining_range",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "9e23540db32bd04b35121d444b0d4779b3e6d9126a7d738b5bf9a67753e6eb3b",
+      "description_sha256": "8614b8eae70316992bd1e867b6dd5a6adf4c2136b3318050d54205a05e45d70d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.rfc_hotp_0",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "0521f6269152b8a776da422d877e1e7b54da788d873a596c9f5bbcbb438f1b03",
+      "description_sha256": "ef1462224f9fc795d50d0db00bcda29f46d91601a364ce857cf47437a2dbce6a",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.rfc_key",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "92fc832b90e78fb79f04a41b2312ec9a7d69983b62346c486b2ae73fd6b2e512",
+      "description_sha256": "be49ddaa9096c5a851c7d2981ede50f97e2a618ee401b86e66ef2fd339421924",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.rfc_totp_59",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "85db64de535da1594cba43be034a79e698dfeade42f5d8887f1ff43d1255f8b4",
+      "description_sha256": "e4f97b452ba56ba087992724996755cef6d5e63e1bee5c930020b65a0f4be48a",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.rol32",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "b35b862c61e9d4822926e9f28c9b902e9e0592dced67263044de3a449cb3ea6a",
+      "description_sha256": "d1aed6251a198e2e63814d1308a2b55ffad792fdd1542fb46a3395bf1be259f3",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.rol32_word",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "2cb2bc4d6059b19a91007860542788af97916af63b4a4f524cd1505fad355375",
+      "description_sha256": "658a78a9391e064b6ead378d63380114cf51484defb59555d2850e10762cdb8d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.rotate_product_int64",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "95da229c131a44ff188d452438ba1c902db39ce69926e0ff2b4f84f1746a04ba",
+      "description_sha256": "66ab440cc17a23bce6913442c8d1b72f959fe4f3b385afd4a2697d61e6a444a4",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.schedule_more",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "dd27df5478d51d1cd680631bbe71911d817799a4f5100a8ad6a1532af99ed0be",
+      "description_sha256": "a6e5044e6a80cb427c17e65ac88a5d9d37ea89ba7ce8650c57d16557eab12daf",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha1",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "3e737bec576aec697a96fc206f3532ce2f4b9ce8742d5aaabc1fcbe4d5d8f10f",
+      "description_sha256": "963a8b4dd751ccc3c855991bd0379e6fed4ccdc4fe7765ec22bd2df1d58eaf16",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha1_abc",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "b0fd43190e8004bf4aab9b8c75caff5ec418619738a44f7a80777a87a2f9e9c8",
+      "description_sha256": "9f21d3f2b7ada1b2531877bb28d738b6a214e3b68f4ba6ec4a2f4732ba1983bc",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha1_empty",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "d0920a1e5e1b4e3ee92c380978b2e1db245a13c00b87191b24599225150dd458",
+      "description_sha256": "aee01b31561ff2889da64faed321340edbecc3937b177e9c141fd51081b85eee",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha1_output_bytes",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "5e478ebae80ae25aaa43632047e460bd87ede52c5d2667fd579f70abd6ebc9f1",
+      "description_sha256": "498a1a4dc65c6715ee14c7982023dbdadc9f49445c114fcf264a42901de2904b",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha1_output_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "5b2ad9b7caaf3a159cd59b252f055064dc1c01f369c9e818909537a2d387c457",
+      "description_sha256": "c658339edce2b9d5975311112375cfa32074759819bc98dadc49bb9d868eda1e",
+      "clarified": true
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_add_int64",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "ca760ee845a0b2f0ba83875db88ff30d3a0daf48a92f7f8b007657827ffdf391",
+      "description_sha256": "26697805d5380d953872e8407e744641f8ddfc02a1de5ba977bca885b64a439e",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_ch",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "673e70ff1a2a3112c619e9b8315e36f6da5992dc0b931e4d0218602671b4c9b2",
+      "description_sha256": "4248934d6ff8d749c98b381a48e3b188bfd037281b9f9af4358d511d9735e3fa",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_f",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "6592ca9abd6fd5372dbc13c335c5220b3b029bb3e8b53cb76f7e0dd74b8f1ae4",
+      "description_sha256": "fb4d7ca8ff1e8d3893fa468233f9e7aa7576c437f4657f493e6968c3234c6e1e",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_k",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "7a86e0c92b15e09f4fed36050df9f90fa9f0cb5147b6970c6ea91a1291fed88f",
+      "description_sha256": "e39c4226534c8d76b478fb2de8bac9ea3ae117855e58651ad905e5557b4bedbb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_maj",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "51c05150b7508b93ca771f351250fcdc0cdb8fb27b2c0cc27667f3af2188030c",
+      "description_sha256": "f17331165e8f6993c77ee19efc5cc1f87549418b14549023cf65b76435037713",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_parity",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "b25826695d6f820a1107589e0689f64ba3968c233f98b44b54f8e32b612531cf",
+      "description_sha256": "c80194aff8f370910ccb8af43acb81fbfac637d8e4a8b5e09bab3f26fa8b3fe7",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_round",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "a083fd6b80977fc387b15d762dfa01b36c4c8c4a0d9cf1eff4be79d59689e75c",
+      "description_sha256": "36e9f2114d6ad158eccdc49e106ab73223520ec3f004b7857f20193f56b94e97",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_round_length",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "095f13dc409298a44aaa719476ffffaf6ca11ddc37178d576f51ef6af8b7b455",
+      "description_sha256": "6e37c10e76439e34fab00f2c57a846ebac74f1169abacd0e8c230a9f85c06e7c",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.sha_round_words",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "f3d0c61b31cd517d5d2853559d973434ab0aaa15a47ec1db530e1952acc72237",
+      "description_sha256": "a2419bdfd8cf90a4b672a6c156b96cbea8d6b190025763ac37127037a40b3551",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.time_counter_bounds",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "3f34cbf8ff7d1f67c9fbcb362d49bb1cdf748eeff32624cbd8698268586c1c55",
+      "description_sha256": "293559bf7d3cb26c6845916ff46fd5bccea5f4444dfd75f8a74cca622489a522",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.totp",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "cb6b753a3d0822df08a63c4d84b88472f759eb00aa67a3db0fd39f50444861b6",
+      "description_sha256": "42bb45de41b8ce6831576cae119966e277e4cfe2014a976e1037f1260773773f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.totp_range",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "630261b6b6b7495920b1b051caa4df224333d17bc41e8f2feb204b66544ce346",
+      "description_sha256": "8c339f23899b121ee3a830f6e7507e2b6a55aa0b19b9d7603866c879f1944c5d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.truncate",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "d82d543890f7408edf2d3759be22d00c139d49ccb8411122e33017a25d71d1d3",
+      "description_sha256": "c5b7b60c8ed4851f0409209cda14c84a24f29f3d25df40ae86a601d86510c52c",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.truncate_range",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "4153c75e8eb35e2e42f33d0f23b44713902190baed9b270c86c63d71bf564bd8",
+      "description_sha256": "9a07244badf8b90c809112912b8028b5e25df66a5983fa5d76c5c6e3d318ef3d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.valid_parameters",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "8a35fe63e0e2b959aca6a2d6772a2c1e171765bdf5dd11d9023b3b8a529e331f",
+      "description_sha256": "686ee32527e06fbbcd5095c9cbc384c3ae1a092127265cae4035b1429fcf9006",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.model.word",
+      "page": "example/authenticator/docs/rocq/core/rocq/model.html",
+      "declaration_sha256": "61897cab0e9066d81807f9150197d03ee3bb94f66a60d676e0a4bbac84d12c58",
+      "description_sha256": "d0faba87f10233fb5f2afadaade043509b1d26111b27dc5d9328b92cdd4ce8ef",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.add",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "416a41cdac5d7c7b9d091d72e24fb36feb69c899938ce58073a29ed436c19744",
+      "description_sha256": "7e113005a339c6ef28d7558be2f51642607c7ae191fb1eb41c6b21772646e730",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.add_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "c789694c521d77bb04fbc959cb8934709ee966f0b391bdd56cf310038da7eefb",
+      "description_sha256": "96e5832d618b83602ff7e053fa4dd3a7140e7ce06e013d1c3f61601967252bf8",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.args",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "d3cc8184f1290d697799ebe3db64d6b41974478d27f492c9a51d61aa435677cb",
+      "description_sha256": "cc4d01614624416dc7315a7dd473e7693b831e15d7f8a3111b118734179dcfdf",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.band",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "1521c4d37fbd5b5a76133275af3e0721c447562f0447a870d1bdad0193e53212",
+      "description_sha256": "7da689700974a3fe3d3589fef910944f0453f3d41c43df66e1946e548f3d061d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.base32_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "c097149e4a7e20c3b35ccbf736a069d3d05cb2a20920b1ce8a9faa3dd10ef7dd",
+      "description_sha256": "9557665ef1350a1bad8977913e71a18e502964920ba56e0464c44facd84436e4",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.base32_value_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "44b66c78893bb0ad65975ca9b0b19059b1e22a0513cb979420a85eee2e06acee",
+      "description_sha256": "1c702226548c6240b7a93ebf0eff0497cba7a569590be267f69bf289cbae28f6",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.both",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "d4753114b6dca988ab9d997dad77f58dd75af911d228ee8edc55715337258e4c",
+      "description_sha256": "8e079b69ac960ad8c56f3d3b5dc6e4c6845ebbefeb8b6787ebbe0b8386a0e65e",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.byte_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "5ea5ba75b7ccf2b66746176273b8b9b16dfcde1a5aa945ab8d267c8bed055cde",
+      "description_sha256": "9e38ccefa1a8ffead387d726615c1eb2215744cc33330088f7bb55e4d54485c6",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.call",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "7c283a8060e3e1d7918454baef55dcdd405f5ac6780fc0c2a7fe66f886eb3633",
+      "description_sha256": "5dc41807c0062007dd4fc49356406f146044bad193fb9720ede25ac6f125cb96",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.code_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "65ddcd754fc325ea8dd26560450aea1fd362265e8df84c8d4cc215c6acda3a92",
+      "description_sha256": "d889fd7abc5ba149ab822b5cbd96f47f23922b5bcb04c11b7c8076e48d3f736f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.copy",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "03d7bb614e13cf804731cdb23f528555a759473a83bf112c45529d7ca636b6d9",
+      "description_sha256": "5067ecce7be7408df44c8b2a5d3d20c24af4d1b784cec95f1cde0ac716be86f7",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.copy_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "39b751b33a46d611cb7a82433327f13101d5ae73d60f459cb9cbf41689389e69",
+      "description_sha256": "8e457195b7d030da4c484d2c9c4c3525f71c20351c35f26d57d281329b189533",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.destroy_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "6874101df8ad684f368a89c1db73d1202cce7febf4320d6e73cd9629d1fcb274",
+      "description_sha256": "60fd3c2446acae5a25e83655524a952f79e74185bfe6c8dd0622ac7370ec2b69",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.div",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "b2dfb68ec9e78c9d170efde29f24ef93379ef13d610c798f5e5bd9eee805f159",
+      "description_sha256": "3fd0052d90d81310b9dc447b15e081ecdd7df49249d706b4ddcb7fdbc0f29ebb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.emit_be",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "e7fb77fc43690f95835547ffd84ddbf67cc8455e79f92de9c2b8182d507d41bd",
+      "description_sha256": "0f7f1aaeb4d2c6070d981564510379b64a33fad2f44ddff7f57ae747d8a041e5",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.eq",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "1a0d3ad81ed7672997b8bb4dd9aec7649a4e62f656290bc80a5683c353c90c13",
+      "description_sha256": "8190269a21ffa5c127f67ac7a8fd9da557a85251645c8c1590fbe89d5548028b",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.find_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "b115e949ab48f12c04a87fee999e26c5f69a215769ae625f1c9f4aec83aab41a",
+      "description_sha256": "f99243d1863998d34be553e8fb8cfa06d91b9385d718fef240ee6c0f49b28b6f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.get",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "c952cb0b78d53108610f9a17b1e741a0a7cbaf3fac9bd837ba440cc519d31ff2",
+      "description_sha256": "74f0ecd2f8a6802cb6bd620c889020f29033a5c64bebbc73d8e7ce673c6d8315",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.hmac_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "9c0e744b9b573eeabb0db06b57ca157117cdf980475eddf112db4dde6a3e2020",
+      "description_sha256": "b440c90155413c9df4524d25ff1ec16b805245ba55920096c5296ea39f4280f0",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.hotp_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "c40bd3bd6ca226882a949e1d4327455190bb27bbcd522b4140fca66b0bc19bf1",
+      "description_sha256": "8951d60818beb0e4c07b171051bb109a640b8171ad2833cda3970af765cd5df8",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.int",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "9e024ebafefc6fe617f41cbf740b86f2d3d3692a664531266fe2e8899abbf0cd",
+      "description_sha256": "f2e486e23dccc21051fdad1194b3c8a5c82ca4f8e38c642ba4b1746fbbf06440",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.le",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "dd57fd27f1f87d321e1b094e2634ef752f53dde13096b48c136b68877fdfab58",
+      "description_sha256": "b1eb236e7671e0295943e4cd1b6cb90fbb630c4a6fcfa04566976efe1750d891",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.lets",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "2efa1abea398f61bece953410791c2a0e7fb8a9c377613a968c843c9e729bd8e",
+      "description_sha256": "d7f28506223dfc9973075152331983ae29212d38bf12dffdc12039c5ba522572",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.list_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "97e0cf958d23f3fef2a2800584b0076459608d1bf461c633384a32901febd3e8",
+      "description_sha256": "4da84dffa3a048878e36baac444ee21c7ad31e009bde268a205eeca33d5eb9e3",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.loop",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "b332664a4e91c4df86a3e7acf1a50f82adc6e91ded2aa94c2b611fd3b5631c9d",
+      "description_sha256": "27f99bc325c5dd53ff7c5808eb18ca77544c3d3b6986c35477399927215efa1f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.mask",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "96384455d1002a5350cd308b06fd4300034a607f49210bcefd37ff4ffad08ece",
+      "description_sha256": "34b1739147c0d9ae617d705943cb871e0643d3a5ff2e72fd171686fa2c6abacd",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.mul",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "be8212491e58ca9fa295ec9e6c41e6923dda9ba792533de53af62d94cfb2a5d4",
+      "description_sha256": "d271426a4531c1139e2229ab6343a4a7b50ae5db2a6ea08c8d65839babc93de9",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.new_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "a166fbeb7eb14525ed3b25273a2df3803defea390c13c2741044d9fb24d05d10",
+      "description_sha256": "79de7b33d0b5d8be15645401c63290a06dcf167c0a070777849111184cb9605d",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.no",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "ebc1a082e0fc0562f7d83c4598c257866a389a3bd695a33380f3fa2db01d6e72",
+      "description_sha256": "07a08225ab1744cc3d080dba40df175b038069cf039e6747975070d34215ce93",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.op",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "293d86de8bb5a9a0f0e1a4c842b0b563347beb9ac0e08ff9b69667e0d2e6b6b7",
+      "description_sha256": "e812519afd99fdf1127974c0535fe810294af03f8c83bef05ba16b1cebe30650",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.parameters",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "92474f1bae7f77b6a51a2899354947a02b145817962c2fd74bc2d4e6f03a2181",
+      "description_sha256": "1dcaf17f097f9c4d7fdfc6d598239aae8da276f5532820014d917b60588d41e4",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.ptr",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "5a47ae017096add7ac362e98a6a030b5fc5bb8fc83388b3446d755b8d4ef83a7",
+      "description_sha256": "9d61dab2624d691e70ee067999fb6aa04506fc8a34463261474ea0fbf9df82ce",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.put",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "8e9740506f279f2302ef261f9942f7bfbd49e7326ab42d494251fc947d1696b4",
+      "description_sha256": "4b6b9f0083518eabcbd253849545061cf0819087397fbbf15de62ea3683af2b2",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.range",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "bf6a49d2ff3399df76d9b7ecca1e26cb1db8a0031d23b6c9c3d230bb46a02f53",
+      "description_sha256": "e12dcfc1cf491584e3c70bf18a7369fd572de65f790aa192ef8669c930f93497",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.read_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "6d271b77e77ed45b6ba879a4d128b75b5cca221dc7df942d3ce88b7b73968311",
+      "description_sha256": "63344679f7cd8924655d9a0c0a511a64af194536702ecc17a01baa9a9dd7a2d8",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.rem",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "6eb32d3d18aacbc66c6ca21b35d5bb687fa282eccbd441195c19128681d2e3cd",
+      "description_sha256": "7a7c7ee9aadada2f2e9194179a4a1619c20e3388eeb43009d1e9bebddc71c1ab",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.remaining_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "52e5358b9a896ffb51ca3b496f4a2b7ca025f8b41742cded8fa0e2dc52c922be",
+      "description_sha256": "7f5d50a2e44112a02606531bece956d62529ef772291c247116988811af25de9",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.remove_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "d34b7922a189dd0fdedb315128d6d71bbefd63874c9ed46c7e9253dbc57fb108",
+      "description_sha256": "c04a7cb77cf109c93e1402ad6f8dbe6fe4288f1c1f44ab86a822595331859280",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.rename_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "a90637ab6037f9942f92cb9ee9936d16dd3692be4e64fccfeb3ce2dcf56a2a5b",
+      "description_sha256": "cb8983b4135a3c582e7563387ac80e44808f51fe4839de7d999e5258695fd82f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.rol",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "b4f3ab3ba66e299860b5e3955fc8ba26876d3ff37a3e31c4b986d8eb5442f6cb",
+      "description_sha256": "d1d4a2d6e68add73e5c490b8c5210b0380b8b0be570dd422f4f7131341b461c8",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.round_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "9d6d3746f444701694891a50f07e356b935bbd5dff7672366ffa89b3978df7e0",
+      "description_sha256": "42a1726549a6def6be8bc894bf620ceb136640f0f839dde195a46955deafaf7f",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.seqs",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "677c24d77e5c48ba75f9acebb588fd4704e064050130411ec13bf6180a0d69a4",
+      "description_sha256": "1b187510b28fadf53c01c2226944c1e1afa92659ba3b410655ac82694d472861",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.session_words",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "c6bbc02b398eba53eade5ca2a961d0a524c7923525169adbf9fb3323ff4eeb78",
+      "description_sha256": "3c746cf1e9b83d1af07481280d31d073a641c3f8ecf714d5bc6b4bd84185c1ac",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.sha_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "3407202b9502f3defdff86d52f849b1a0b28425f7aabf2916774d12069901fb8",
+      "description_sha256": "9b986e45ff70430ab4a2e38314e7fd64dcc171a83fbc18221959850b9fd57ad2",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.sha_choose",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "10fb35233f7a57bbd91e4f0ea880916243c8f4caec9ca750382386a434175583",
+      "description_sha256": "976bbf9d7219b07678781a1406445e9e0f1bb32dcc3d2878d21f292c199d4bc6",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.sha_compress",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "d29e41425b71856062929a233baebfae31de0a6f017f12644cdbfd473ed6e29b",
+      "description_sha256": "aea70b547904d1b224c22aa5d10a322f1be40a391fbacaf655f65c50a36f6701",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.sha_constant",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "6524c056d49c7703d30b10c2e26e42ae26dda70011532d83f774c5dd09247ba0",
+      "description_sha256": "d3e24cfb15a98d52ee0a4b185ef33fef5a8936209e120af6d04b1a6cfba895c3",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.slot",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "41caea0b50aec2dd1bc56cd9691f5d2cd89d28bad4592c4e85a9474c0e4377c6",
+      "description_sha256": "9d88bc7c951ae0d7597f0184796f24ab7f7ae3566a72b569972018f6a59b2c60",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.sub",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "973f3e9855d09942269e11aaa347120fb5f94f7402919b2f15f44d4d4d0e8e24",
+      "description_sha256": "b533f09df3cf0c66cd6b10cb996e3d5ee8f488e08f9e9fd3efdba5e2f25a65fb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.totp_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "fc6c6155416b18fe7f0758860b28f1b3f3c515e2742974da6e4a6c49fcd1a5d8",
+      "description_sha256": "9f267be7b9a5cefad855e8f279a2733a0d5ec228aac1fcce03758e4993f6f250",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.unit_e",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "0bce5da0bc4e3ff23a6429b8dd392ca7d771d83d1ef9f64b776b57c87677b254",
+      "description_sha256": "7dcce418e0c71522d2574c2d7f0f2bd12ef0a11c5ad5f963e122eb2fa0814a32",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.v",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "97801ca15e0a7e223e939e8990d6336a01f5ed0983f81b0171de7c996190427d",
+      "description_sha256": "f0643754fd85b2e2a92d821d86b20b645d4f3422a7d85938d6a5c66d15a080ac",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.vars",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "104e383ceb9ebd274daeeadf2375299c3a5aa8588c42299fab295f0c104fda57",
+      "description_sha256": "5daca9922a01d1fa330d750b9b5463c92b44d523dabee4c0fe66cadfa205e1f7",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.xor",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "4e181b59eedddc6e471c5e61bd14bcfa6eda53738320fe889806c67623e11ab6",
+      "description_sha256": "276ece6f80be8f77a00b0cb1c4f645a9164076f1be5701a96a33dc672f3b36eb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.yes",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "11ba8d6c8e2452df617ddad1aa4eea9ebefee110a883d97015a711da87655bbf",
+      "description_sha256": "903a3cb921ec7e746e5a26d9e45be0a0ba3c826c734bef4cd386ce5b4a3ce553",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.zero",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "d3c1bd390bda1c7dd9f734f389d62f0907bb3286cf8999d0259d098f9e6b3358",
+      "description_sha256": "4afa8128b7e36f6c07b60648c49157b569f2bd1623bb648f55b8d632ed99d782",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.program.zero_body",
+      "page": "example/authenticator/docs/rocq/core/rocq/program.html",
+      "declaration_sha256": "1af93ae8fecd5a103261afd37616b85f41f5fb1c20f2dab9fa3fbfac1fe2a366",
+      "description_sha256": "d6a2523e8821596370740be765b6fc5202128c9e7b99ce47e6768bb5abdf8897",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.base32_reject_size",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "a1fe86739c48c60fdc28d171e4b3b643815303c95f10cc35b5405886959057e4",
+      "description_sha256": "729dee0c460f7df19ae420e97903e95056a930bd6d1d9b9fcaa7d8486dc8fdc6",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.base32_value_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "dc5d29b03b54c33329a4b7668a920ad2ccea21711befc1b2c0efd3b1874ab240",
+      "description_sha256": "cae74e9138b6fe68f13df3406ecda762a0423e88a14fa55eb5f99d321c9a9382",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.buffer_get_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "07e9e5d6a6713b5cc4a822da67a528e8738ba6bc292be1bd14f7dff575538cc5",
+      "description_sha256": "731448d7176043569d21db692440a7e9e436a337c06431bec4b03c7f1d5c2fbd",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.buffer_put_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "a48311bf8f1d1c1856f389890a7efb42d90ef3fd66dd66826a7b4351c3bd0dde",
+      "description_sha256": "78762cb81a1ba1e2a00876dd59dec792913b32072e9a2653314776b523da605c",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.counted_while_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "ec42e9646f3a59342bb37aa73d39260588d5f4454e0421b7f248bd4e77c3561f",
+      "description_sha256": "35af45cdf12a92ff49e815f8a0720627640a4799e2a3f58122ed4b582da23d02",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.counter_increment",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "c0e497f678fee17591493b6709e44e608c9ca95cb0e4a82edd1b77d8efee0ed6",
+      "description_sha256": "e867572e33030af47bd43140beb462a6a24f33fe90222dc8108713b4395aab4a",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.counter_test",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "da0d824e7d4d14a70b07b140c16824a6d9871f3b8cff2835be69fbecffb7bca9",
+      "description_sha256": "f756518260cdff0d6c5041a22fbaa6806146696b0550f6d0602393c0dc083afb",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.remaining_reject",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "06f9a0a2bdb34021030273c62d4e79402b1f84c7464c5be9d02a8c1393f948b6",
+      "description_sha256": "8f532a2a2cf25c5e0941f95949ad5c367170c07c0a0db8fb6aec207703f25fac",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.remaining_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "85f41401dc57d56449569703a31a9a61a178839db75a44b004899ad55189eb4b",
+      "description_sha256": "e363e74e331073fd813fe1a29e2e45d38a9f69724ace3162d0944b56816b3c31",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.rol_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "1050a41023a680a78144a27e5d575fe440ff9169c90fd136c89fb024b3ef414f",
+      "description_sha256": "1df07b990f6220eebf49d5517e358c9f4faf4e40d6ec6108c143a7245f3589b1",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.round_wp",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "b776940d0cdffe96d33aeddecde73d87ee29a71029b9b087d95892fe090b59e7",
+      "description_sha256": "1ee9bdb68ad984ed240c7ca0d9ca4361940d6994f81bfb1b7c9a6efffb5b6717",
+      "clarified": false
+    },
+    {
+      "identity": "cjr.authenticator.refinement.sha1_reject_size",
+      "page": "example/authenticator/docs/rocq/core/rocq/refinement.html",
+      "declaration_sha256": "924b11fec13db1451cd5bf5611da07a9a257bc2f8e4beb109facc5cf6a8f6b38",
+      "description_sha256": "5944ba5e657214269fa5bf3dbd905c1a1e958aceccd5c6f707eacc27a5dfabc6",
+      "clarified": false
+    }
+  ],
+  "removed_obsolete_pages": [
+    "example/authenticator/docs/rocq/example/authenticator/rocq/refinement.html",
+    "example/authenticator/docs/rocq/example/authenticator/rocq/base32.html",
+    "example/authenticator/docs/rocq/example/authenticator/rocq/extract.html",
+    "example/authenticator/docs/rocq/example/authenticator/rocq/accounts.html",
+    "example/authenticator/docs/rocq/example/authenticator/rocq/program.html",
+    "example/authenticator/docs/rocq/example/authenticator/rocq/model.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_compress.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/round_kernel.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hmac_inputs.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/refinement.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/base32.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_loop.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/padding_memory.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_state.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_enroll_entry.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hotp_entry.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_memory.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_blocks.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_iteration.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/input_memory.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/extract.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/padding_native.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/accounts.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_reject_composition.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hmac.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_entry.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_enroll_guard.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_bounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_bounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/base32_input.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_buffers.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_truncate.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_reject.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/otp_execution_bounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_bounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hmac_key.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha_execution_bounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_representation.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/encoding_stack.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/base32_decoder.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_code.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/core_crypto.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_model.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/base32_refinement.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_refinement.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/round_model.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/padding.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_rename.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hmac_reject.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hmac_entry.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_composition.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/encoding_arithmetic.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/otp_bounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_refinement.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/memory_application.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_totp.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/memory.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_digest.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_slots.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/crypto_hotp.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/program.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/memory_calls.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_rename_representation.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_rounds.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sessions.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/encoding.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_enroll.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_enroll_representation.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_layout.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/base32_contracts.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/base32_stream.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/core_accounts.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/sha1_compute.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/account_validation.html",
+    "example/authenticator/docs/rocq/example/authenticator/core/rocq/model.html"
+  ]
+}

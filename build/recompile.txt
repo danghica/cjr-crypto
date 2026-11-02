@@ -1,0 +1,243 @@
+python3 scripts/project.py dependencies 
+Dependencies match lock file
+/Users/danghica/.opam/default/bin/coq_makefile -f _CoqProject -o CoqMakefile
+COQDEP VFILES
+Warning: /Users/danghica/cjr/cjr-core/tools/extraction/rocq (used in -R or -Q) is not a subdirectory of the current directory
+
+COQC example/aes_ige/rocq/bytes.v
+COQC example/authenticator/core/rocq/model.v
+COQC example/authenticator/core/rocq/program.v
+COQC example/authenticator/core/rocq/base32.v
+COQC example/authenticator/core/rocq/crypto_bounds.v
+COQC example/authenticator/core/rocq/padding.v
+COQC example/authenticator/core/rocq/base32_stream.v
+COQC example/authenticator/core/rocq/accounts.v
+COQC example/authenticator/core/rocq/extract.v
+COQC example/aes_ige/rocq/block.v
+COQC example/aes_ige/rocq/program.v
+COQC example/aes_ige/rocq/index_bounds.v
+COQC example/aes_ige/rocq/extract.v
+COQC example/authenticator/core/rocq/refinement.v
+COQC example/authenticator/core/rocq/account_model.v
+File "./example/authenticator/core/rocq/account_model.v", line 140, characters 0-99:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_model.v", line 153, characters 0-100:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC extraction/emit_cj.v
+COQC example/aes_ige/rocq/aes.v
+COQC example/aes_ige/rocq/calls.v
+COQC example/aes_ige/rocq/refinement.v
+COQC example/aes_ige/rocq/ige.v
+COQC example/aes_ige/rocq/expansion.v
+COQC example/aes_ige/rocq/vectors.v
+COQC example/aes_ige/rocq/memory.v
+COQC example/aes_ige/rocq/mode.v
+COQC example/aes_ige/rocq/key_layout.v
+COQC example/authenticator/core/rocq/memory.v
+File "./example/authenticator/core/rocq/memory.v", line 336, characters 0-165:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 336, characters 0-165:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 344, characters 3-33:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 344, characters 3-33:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 349, characters 3-69:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 349, characters 3-69:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 353, characters 0-175:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 353, characters 0-175:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 363, characters 3-44:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/memory.v", line 363, characters 3-44:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/round_kernel.v
+COQC example/authenticator/core/rocq/base32_refinement.v
+COQC example/authenticator/core/rocq/account_validation.v
+COQC example/authenticator/core/rocq/crypto_refinement.v
+COQC example/aes_ige/rocq/kernels.v
+COQC example/authenticator/core/rocq/sessions.v
+File "./example/authenticator/core/rocq/sessions.v", line 98, characters 0-231:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/sessions.v", line 145, characters 0-406:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/crypto_totp.v
+COQC example/authenticator/core/rocq/memory_calls.v
+COQC example/authenticator/core/rocq/crypto_buffers.v
+COQC example/authenticator/core/rocq/crypto_hmac_key.v
+COQC example/authenticator/core/rocq/memory_application.v
+COQC example/authenticator/core/rocq/encoding.v
+COQC example/authenticator/core/rocq/crypto_truncate.v
+COQC example/authenticator/core/rocq/padding_memory.v
+COQC example/authenticator/core/rocq/encoding_arithmetic.v
+COQC example/authenticator/core/rocq/sha1_blocks.v
+COQC example/authenticator/core/rocq/sha1_memory.v
+COQC example/authenticator/core/rocq/encoding_stack.v
+COQC example/authenticator/core/rocq/base32_decoder.v
+COQC example/authenticator/core/rocq/account_refinement.v
+File "./example/authenticator/core/rocq/account_refinement.v", line 44, characters 0-215:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 54, characters 0-220:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 101, characters 0-273:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 141, characters 3-89:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 141, characters 3-89:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 156, characters 0-238:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 156, characters 0-238:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 156, characters 0-238:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_refinement.v", line 165, characters 0-397:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/account_layout.v
+COQC example/aes_ige/rocq/routines.v
+COQC example/aes_ige/rocq/syntax.v
+COQC example/aes_ige/rocq/layout.v
+COQC example/authenticator/core/rocq/account_slots.v
+File "./example/authenticator/core/rocq/account_slots.v", line 66, characters 0-302:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/crypto_hmac.v
+COQC example/authenticator/core/rocq/input_memory.v
+COQC example/authenticator/core/rocq/crypto_hotp.v
+COQC example/authenticator/core/rocq/padding_native.v
+COQC example/authenticator/core/rocq/sha1_iteration.v
+COQC example/authenticator/core/rocq/round_model.v
+COQC example/authenticator/core/rocq/base32_contracts.v
+COQC example/authenticator/core/rocq/account_representation.v
+COQC example/authenticator/core/rocq/account_rename.v
+File "./example/authenticator/core/rocq/account_rename.v", line 43, characters 0-650:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_rename.v", line 140, characters 0-798:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/sha1_bounds.v
+COQC example/aes_ige/rocq/encrypt_10.v
+COQC example/aes_ige/rocq/encrypt_12.v
+COQC example/aes_ige/rocq/encrypt_14.v
+COQC example/aes_ige/rocq/decrypt_10.v
+COQC example/aes_ige/rocq/decrypt_12.v
+COQC example/aes_ige/rocq/decrypt_14.v
+COQC example/aes_ige/rocq/ige_syntax.v
+COQC example/authenticator/core/rocq/account_bounds.v
+COQC example/authenticator/core/rocq/crypto_hmac_inputs.v
+COQC example/authenticator/core/rocq/crypto_hotp_entry.v
+COQC example/authenticator/core/rocq/sha1_rounds.v
+COQC example/authenticator/core/rocq/base32_input.v
+COQC example/authenticator/core/rocq/account_rename_representation.v
+COQC example/authenticator/core/rocq/otp_bounds.v
+COQC example/aes_ige/rocq/rejection.v
+COQC example/authenticator/core/rocq/crypto_hmac_entry.v
+COQC example/authenticator/core/rocq/sha1_compress.v
+COQC example/authenticator/core/rocq/sha1_digest.v
+COQC example/authenticator/core/rocq/account_enroll.v
+File "./example/authenticator/core/rocq/account_enroll.v", line 98, characters 0-785:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_enroll.v", line 122, characters 1-99:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_enroll.v", line 122, characters 1-99:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_enroll.v", line 192, characters 1-101:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_enroll.v", line 192, characters 1-101:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/crypto_hmac_reject.v
+COQC example/authenticator/core/rocq/crypto_composition.v
+COQC example/authenticator/core/rocq/sha1_loop.v
+COQC example/authenticator/core/rocq/account_enroll_guard.v
+COQC example/authenticator/core/rocq/account_enroll_representation.v
+File "./example/authenticator/core/rocq/account_enroll_guard.v", line 31, characters 0-731:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_enroll_guard.v", line 44, characters 3-101:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_enroll_guard.v", line 44, characters 3-101:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/crypto_reject_composition.v
+COQC example/aes_ige/rocq/cipher.v
+COQC example/authenticator/core/rocq/sha1_state.v
+COQC example/authenticator/core/rocq/account_enroll_entry.v
+File "./example/authenticator/core/rocq/account_enroll_entry.v", line 72, characters 0-694:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/aes_ige/rocq/ige_refinement.v
+File "./example/authenticator/core/rocq/account_enroll_entry.v", line 150, characters 0-625:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/sha1_compute.v
+COQC example/aes_ige/rocq/composition.v
+COQC example/authenticator/core/rocq/sha1_entry.v
+COQC example/authenticator/core/rocq/sha_execution_bounds.v
+COQC example/authenticator/core/rocq/otp_execution_bounds.v
+COQC example/authenticator/core/rocq/core_crypto.v
+COQC example/authenticator/core/rocq/account_code.v
+File "./example/authenticator/core/rocq/account_code.v", line 50, characters 0-691:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/sha1_reject.v
+File "./example/authenticator/core/rocq/account_code.v", line 110, characters 0-264:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_code.v", line 123, characters 0-322:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_code.v", line 185, characters 0-247:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_code.v", line 199, characters 0-361:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/account_code.v", line 211, characters 0-331:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+COQC example/authenticator/core/rocq/core_accounts.v
+File "./example/authenticator/core/rocq/core_accounts.v", line 248, characters 0-170:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/core_accounts.v", line 255, characters 18-50:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/core_accounts.v", line 255, characters 18-50:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]
+File "./example/authenticator/core/rocq/core_accounts.v", line 258, characters 0-136:
+Warning: To avoid stack overflow, large numbers in nat are interpreted as
+applications of Init.Nat.of_num_uint. [abstract-large-number,numbers,default]

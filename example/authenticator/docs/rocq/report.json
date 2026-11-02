@@ -2,7 +2,7 @@
   "version": 1,
   "files": [
     {
-      "file": "example/authenticator/core/rocq/account_bounds.v",
+      "file": "core/rocq/account_bounds.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1096",
@@ -23,7 +23,7 @@
       "declarations": 10
     },
     {
-      "file": "example/authenticator/core/rocq/account_code.v",
+      "file": "core/rocq/account_code.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 10127",
@@ -50,7 +50,7 @@
       "declarations": 16
     },
     {
-      "file": "example/authenticator/core/rocq/account_enroll.v",
+      "file": "core/rocq/account_enroll.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1598",
@@ -72,7 +72,7 @@
       "declarations": 9
     },
     {
-      "file": "example/authenticator/core/rocq/account_enroll_entry.v",
+      "file": "core/rocq/account_enroll_entry.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1780",
@@ -94,7 +94,7 @@
       "declarations": 11
     },
     {
-      "file": "example/authenticator/core/rocq/account_enroll_guard.v",
+      "file": "core/rocq/account_enroll_guard.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1726",
@@ -111,7 +111,7 @@
       "declarations": 5
     },
     {
-      "file": "example/authenticator/core/rocq/account_enroll_representation.v",
+      "file": "core/rocq/account_enroll_representation.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 2154",
@@ -144,7 +144,7 @@
       "declarations": 10
     },
     {
-      "file": "example/authenticator/core/rocq/account_layout.v",
+      "file": "core/rocq/account_layout.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1716",
@@ -163,7 +163,7 @@
       "declarations": 9
     },
     {
-      "file": "example/authenticator/core/rocq/account_model.v",
+      "file": "core/rocq/account_model.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 10108",
@@ -192,7 +192,7 @@
       "declarations": 35
     },
     {
-      "file": "example/authenticator/core/rocq/account_refinement.v",
+      "file": "core/rocq/account_refinement.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -217,7 +217,7 @@
       "declarations": 21
     },
     {
-      "file": "example/authenticator/core/rocq/account_rename.v",
+      "file": "core/rocq/account_rename.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1208",
@@ -236,7 +236,7 @@
       "declarations": 7
     },
     {
-      "file": "example/authenticator/core/rocq/account_rename_representation.v",
+      "file": "core/rocq/account_rename_representation.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1291",
@@ -266,7 +266,7 @@
       "declarations": 9
     },
     {
-      "file": "example/authenticator/core/rocq/account_representation.v",
+      "file": "core/rocq/account_representation.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1013",
@@ -333,7 +333,7 @@
       "declarations": 26
     },
     {
-      "file": "example/authenticator/core/rocq/account_slots.v",
+      "file": "core/rocq/account_slots.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitStack [requires runtime or layout metadata]",
@@ -349,7 +349,7 @@
       "declarations": 7
     },
     {
-      "file": "example/authenticator/core/rocq/account_validation.v",
+      "file": "core/rocq/account_validation.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1403",
@@ -360,7 +360,7 @@
       "declarations": 2
     },
     {
-      "file": "example/authenticator/core/rocq/accounts.v",
+      "file": "core/rocq/accounts.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 3099",
@@ -380,7 +380,7 @@
       "declarations": 18
     },
     {
-      "file": "example/authenticator/core/rocq/base32.v",
+      "file": "core/rocq/base32.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1699",
@@ -399,7 +399,7 @@
       "declarations": 12
     },
     {
-      "file": "example/authenticator/core/rocq/base32_contracts.v",
+      "file": "core/rocq/base32_contracts.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -413,7 +413,7 @@
       "declarations": 5
     },
     {
-      "file": "example/authenticator/core/rocq/base32_decoder.v",
+      "file": "core/rocq/base32_decoder.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -429,7 +429,7 @@
       "declarations": 4
     },
     {
-      "file": "example/authenticator/core/rocq/base32_input.v",
+      "file": "core/rocq/base32_input.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 571",
@@ -439,7 +439,7 @@
       "declarations": 1
     },
     {
-      "file": "example/authenticator/core/rocq/base32_refinement.v",
+      "file": "core/rocq/base32_refinement.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -470,7 +470,7 @@
       "declarations": 27
     },
     {
-      "file": "example/authenticator/core/rocq/base32_stream.v",
+      "file": "core/rocq/base32_stream.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1068",
@@ -500,7 +500,7 @@
       "declarations": 34
     },
     {
-      "file": "example/authenticator/core/rocq/core_accounts.v",
+      "file": "core/rocq/core_accounts.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -566,7 +566,7 @@
       "declarations": 38
     },
     {
-      "file": "example/authenticator/core/rocq/core_crypto.v",
+      "file": "core/rocq/core_crypto.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1002",
@@ -607,7 +607,7 @@
       "declarations": 7
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_bounds.v",
+      "file": "core/rocq/crypto_bounds.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1241",
@@ -627,7 +627,7 @@
       "declarations": 15
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_buffers.v",
+      "file": "core/rocq/crypto_buffers.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -638,7 +638,7 @@
       "declarations": 5
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_composition.v",
+      "file": "core/rocq/crypto_composition.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1470",
@@ -688,7 +688,7 @@
       "declarations": 8
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hmac.v",
+      "file": "core/rocq/crypto_hmac.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -712,7 +712,7 @@
       "declarations": 11
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hmac_entry.v",
+      "file": "core/rocq/crypto_hmac_entry.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 2097",
@@ -733,7 +733,7 @@
       "declarations": 12
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hmac_inputs.v",
+      "file": "core/rocq/crypto_hmac_inputs.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 722",
@@ -748,7 +748,7 @@
       "declarations": 1
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hmac_key.v",
+      "file": "core/rocq/crypto_hmac_key.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 860",
@@ -757,7 +757,7 @@
       "declarations": 3
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hmac_reject.v",
+      "file": "core/rocq/crypto_hmac_reject.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 675",
@@ -769,7 +769,7 @@
       "declarations": 1
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hotp.v",
+      "file": "core/rocq/crypto_hotp.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -784,7 +784,7 @@
       "declarations": 7
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_hotp_entry.v",
+      "file": "core/rocq/crypto_hotp_entry.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1896",
@@ -804,7 +804,7 @@
       "declarations": 10
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_refinement.v",
+      "file": "core/rocq/crypto_refinement.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1248",
@@ -815,7 +815,7 @@
       "declarations": 3
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_reject_composition.v",
+      "file": "core/rocq/crypto_reject_composition.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1143",
@@ -837,7 +837,7 @@
       "declarations": 5
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_totp.v",
+      "file": "core/rocq/crypto_totp.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -855,7 +855,7 @@
       "declarations": 11
     },
     {
-      "file": "example/authenticator/core/rocq/crypto_truncate.v",
+      "file": "core/rocq/crypto_truncate.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1581",
@@ -866,7 +866,7 @@
       "declarations": 5
     },
     {
-      "file": "example/authenticator/core/rocq/encoding.v",
+      "file": "core/rocq/encoding.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1224",
@@ -881,7 +881,7 @@
       "declarations": 10
     },
     {
-      "file": "example/authenticator/core/rocq/encoding_arithmetic.v",
+      "file": "core/rocq/encoding_arithmetic.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 2188",
@@ -893,7 +893,7 @@
       "declarations": 3
     },
     {
-      "file": "example/authenticator/core/rocq/encoding_stack.v",
+      "file": "core/rocq/encoding_stack.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitStack [requires runtime or layout metadata]",
@@ -905,13 +905,13 @@
       "declarations": 3
     },
     {
-      "file": "example/authenticator/core/rocq/extract.v",
+      "file": "core/rocq/extract.v",
       "errors": [],
       "unsupported": [],
       "declarations": 4
     },
     {
-      "file": "example/authenticator/core/rocq/input_memory.v",
+      "file": "core/rocq/input_memory.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -927,7 +927,7 @@
       "declarations": 6
     },
     {
-      "file": "example/authenticator/core/rocq/memory.v",
+      "file": "core/rocq/memory.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -956,7 +956,7 @@
       "declarations": 19
     },
     {
-      "file": "example/authenticator/core/rocq/memory_application.v",
+      "file": "core/rocq/memory_application.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -971,7 +971,7 @@
       "declarations": 6
     },
     {
-      "file": "example/authenticator/core/rocq/memory_calls.v",
+      "file": "core/rocq/memory_calls.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -982,7 +982,7 @@
       "declarations": 2
     },
     {
-      "file": "example/authenticator/core/rocq/model.v",
+      "file": "core/rocq/model.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 3477",
@@ -1017,7 +1017,7 @@
       "declarations": 57
     },
     {
-      "file": "example/authenticator/core/rocq/otp_bounds.v",
+      "file": "core/rocq/otp_bounds.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1190",
@@ -1048,7 +1048,7 @@
       "declarations": 10
     },
     {
-      "file": "example/authenticator/core/rocq/otp_execution_bounds.v",
+      "file": "core/rocq/otp_execution_bounds.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1254",
@@ -1097,7 +1097,7 @@
       "declarations": 16
     },
     {
-      "file": "example/authenticator/core/rocq/padding.v",
+      "file": "core/rocq/padding.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1479",
@@ -1108,7 +1108,7 @@
       "declarations": 8
     },
     {
-      "file": "example/authenticator/core/rocq/padding_memory.v",
+      "file": "core/rocq/padding_memory.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1076",
@@ -1123,7 +1123,7 @@
       "declarations": 9
     },
     {
-      "file": "example/authenticator/core/rocq/padding_native.v",
+      "file": "core/rocq/padding_native.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 819",
@@ -1132,7 +1132,7 @@
       "declarations": 2
     },
     {
-      "file": "example/authenticator/core/rocq/program.v",
+      "file": "core/rocq/program.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR Struct [requires runtime or layout metadata]",
@@ -1144,7 +1144,7 @@
       "declarations": 57
     },
     {
-      "file": "example/authenticator/core/rocq/refinement.v",
+      "file": "core/rocq/refinement.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -1172,7 +1172,7 @@
       "declarations": 12
     },
     {
-      "file": "example/authenticator/core/rocq/round_kernel.v",
+      "file": "core/rocq/round_kernel.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR StructV [requires runtime or layout metadata]",
@@ -1181,7 +1181,7 @@
       "declarations": 2
     },
     {
-      "file": "example/authenticator/core/rocq/round_model.v",
+      "file": "core/rocq/round_model.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1023",
@@ -1204,7 +1204,7 @@
       "declarations": 15
     },
     {
-      "file": "example/authenticator/core/rocq/sessions.v",
+      "file": "core/rocq/sessions.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1133",
@@ -1220,7 +1220,7 @@
       "declarations": 13
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_blocks.v",
+      "file": "core/rocq/sha1_blocks.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitStack [requires runtime or layout metadata]",
@@ -1239,7 +1239,7 @@
       "declarations": 6
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_bounds.v",
+      "file": "core/rocq/sha1_bounds.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1353",
@@ -1307,7 +1307,7 @@
       "declarations": 24
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_compress.v",
+      "file": "core/rocq/sha1_compress.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -1321,7 +1321,7 @@
       "declarations": 30
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_compute.v",
+      "file": "core/rocq/sha1_compute.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -1333,7 +1333,7 @@
       "declarations": 6
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_digest.v",
+      "file": "core/rocq/sha1_digest.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitStack [requires runtime or layout metadata]",
@@ -1347,7 +1347,7 @@
       "declarations": 4
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_entry.v",
+      "file": "core/rocq/sha1_entry.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1962",
@@ -1358,7 +1358,7 @@
       "declarations": 8
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_iteration.v",
+      "file": "core/rocq/sha1_iteration.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1099",
@@ -1376,7 +1376,7 @@
       "declarations": 5
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_loop.v",
+      "file": "core/rocq/sha1_loop.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 862",
@@ -1388,7 +1388,7 @@
       "declarations": 2
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_memory.v",
+      "file": "core/rocq/sha1_memory.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -1413,7 +1413,7 @@
       "declarations": 25
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_reject.v",
+      "file": "core/rocq/sha1_reject.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 1721",
@@ -1427,7 +1427,7 @@
       "declarations": 3
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_rounds.v",
+      "file": "core/rocq/sha1_rounds.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitStack [requires runtime or layout metadata]",
@@ -1439,7 +1439,7 @@
       "declarations": 3
     },
     {
-      "file": "example/authenticator/core/rocq/sha1_state.v",
+      "file": "core/rocq/sha1_state.v",
       "errors": [],
       "unsupported": [
         "Cangjie unavailable: CJR LitPtr [requires runtime or layout metadata]",
@@ -1453,7 +1453,7 @@
       "declarations": 2
     },
     {
-      "file": "example/authenticator/core/rocq/sha_execution_bounds.v",
+      "file": "core/rocq/sha_execution_bounds.v",
       "errors": [],
       "unsupported": [
         "unclassified arrow at byte 10269",
@@ -1681,75 +1681,75 @@
       "cjr.authenticator.sha_execution_bounds.reachable_schedule_rotate_bounds"
     ],
     "source_issues": {
-      "example/authenticator/core/rocq/account_bounds.v": [],
-      "example/authenticator/core/rocq/account_code.v": [],
-      "example/authenticator/core/rocq/account_enroll.v": [],
-      "example/authenticator/core/rocq/account_enroll_entry.v": [],
-      "example/authenticator/core/rocq/account_enroll_guard.v": [],
-      "example/authenticator/core/rocq/account_enroll_representation.v": [],
-      "example/authenticator/core/rocq/account_layout.v": [],
-      "example/authenticator/core/rocq/account_model.v": [],
-      "example/authenticator/core/rocq/account_refinement.v": [],
-      "example/authenticator/core/rocq/account_rename.v": [],
-      "example/authenticator/core/rocq/account_rename_representation.v": [],
-      "example/authenticator/core/rocq/account_representation.v": [],
-      "example/authenticator/core/rocq/account_slots.v": [],
-      "example/authenticator/core/rocq/account_validation.v": [],
-      "example/authenticator/core/rocq/accounts.v": [],
-      "example/authenticator/core/rocq/base32.v": [],
-      "example/authenticator/core/rocq/base32_contracts.v": [],
-      "example/authenticator/core/rocq/base32_decoder.v": [],
-      "example/authenticator/core/rocq/base32_input.v": [],
-      "example/authenticator/core/rocq/base32_refinement.v": [],
-      "example/authenticator/core/rocq/base32_stream.v": [],
-      "example/authenticator/core/rocq/core_accounts.v": [],
-      "example/authenticator/core/rocq/core_crypto.v": [],
-      "example/authenticator/core/rocq/crypto_bounds.v": [],
-      "example/authenticator/core/rocq/crypto_buffers.v": [],
-      "example/authenticator/core/rocq/crypto_composition.v": [],
-      "example/authenticator/core/rocq/crypto_hmac.v": [],
-      "example/authenticator/core/rocq/crypto_hmac_entry.v": [],
-      "example/authenticator/core/rocq/crypto_hmac_inputs.v": [],
-      "example/authenticator/core/rocq/crypto_hmac_key.v": [],
-      "example/authenticator/core/rocq/crypto_hmac_reject.v": [],
-      "example/authenticator/core/rocq/crypto_hotp.v": [],
-      "example/authenticator/core/rocq/crypto_hotp_entry.v": [],
-      "example/authenticator/core/rocq/crypto_refinement.v": [],
-      "example/authenticator/core/rocq/crypto_reject_composition.v": [],
-      "example/authenticator/core/rocq/crypto_totp.v": [],
-      "example/authenticator/core/rocq/crypto_truncate.v": [],
-      "example/authenticator/core/rocq/encoding.v": [],
-      "example/authenticator/core/rocq/encoding_arithmetic.v": [],
-      "example/authenticator/core/rocq/encoding_stack.v": [],
-      "example/authenticator/core/rocq/extract.v": [],
-      "example/authenticator/core/rocq/input_memory.v": [],
-      "example/authenticator/core/rocq/memory.v": [],
-      "example/authenticator/core/rocq/memory_application.v": [],
-      "example/authenticator/core/rocq/memory_calls.v": [],
-      "example/authenticator/core/rocq/model.v": [],
-      "example/authenticator/core/rocq/otp_bounds.v": [],
-      "example/authenticator/core/rocq/otp_execution_bounds.v": [],
-      "example/authenticator/core/rocq/padding.v": [],
-      "example/authenticator/core/rocq/padding_memory.v": [],
-      "example/authenticator/core/rocq/padding_native.v": [],
-      "example/authenticator/core/rocq/program.v": [],
-      "example/authenticator/core/rocq/refinement.v": [],
-      "example/authenticator/core/rocq/round_kernel.v": [],
-      "example/authenticator/core/rocq/round_model.v": [],
-      "example/authenticator/core/rocq/sessions.v": [],
-      "example/authenticator/core/rocq/sha1_blocks.v": [],
-      "example/authenticator/core/rocq/sha1_bounds.v": [],
-      "example/authenticator/core/rocq/sha1_compress.v": [],
-      "example/authenticator/core/rocq/sha1_compute.v": [],
-      "example/authenticator/core/rocq/sha1_digest.v": [],
-      "example/authenticator/core/rocq/sha1_entry.v": [],
-      "example/authenticator/core/rocq/sha1_iteration.v": [],
-      "example/authenticator/core/rocq/sha1_loop.v": [],
-      "example/authenticator/core/rocq/sha1_memory.v": [],
-      "example/authenticator/core/rocq/sha1_reject.v": [],
-      "example/authenticator/core/rocq/sha1_rounds.v": [],
-      "example/authenticator/core/rocq/sha1_state.v": [],
-      "example/authenticator/core/rocq/sha_execution_bounds.v": []
+      "core/rocq/account_bounds.v": [],
+      "core/rocq/account_code.v": [],
+      "core/rocq/account_enroll.v": [],
+      "core/rocq/account_enroll_entry.v": [],
+      "core/rocq/account_enroll_guard.v": [],
+      "core/rocq/account_enroll_representation.v": [],
+      "core/rocq/account_layout.v": [],
+      "core/rocq/account_model.v": [],
+      "core/rocq/account_refinement.v": [],
+      "core/rocq/account_rename.v": [],
+      "core/rocq/account_rename_representation.v": [],
+      "core/rocq/account_representation.v": [],
+      "core/rocq/account_slots.v": [],
+      "core/rocq/account_validation.v": [],
+      "core/rocq/accounts.v": [],
+      "core/rocq/base32.v": [],
+      "core/rocq/base32_contracts.v": [],
+      "core/rocq/base32_decoder.v": [],
+      "core/rocq/base32_input.v": [],
+      "core/rocq/base32_refinement.v": [],
+      "core/rocq/base32_stream.v": [],
+      "core/rocq/core_accounts.v": [],
+      "core/rocq/core_crypto.v": [],
+      "core/rocq/crypto_bounds.v": [],
+      "core/rocq/crypto_buffers.v": [],
+      "core/rocq/crypto_composition.v": [],
+      "core/rocq/crypto_hmac.v": [],
+      "core/rocq/crypto_hmac_entry.v": [],
+      "core/rocq/crypto_hmac_inputs.v": [],
+      "core/rocq/crypto_hmac_key.v": [],
+      "core/rocq/crypto_hmac_reject.v": [],
+      "core/rocq/crypto_hotp.v": [],
+      "core/rocq/crypto_hotp_entry.v": [],
+      "core/rocq/crypto_refinement.v": [],
+      "core/rocq/crypto_reject_composition.v": [],
+      "core/rocq/crypto_totp.v": [],
+      "core/rocq/crypto_truncate.v": [],
+      "core/rocq/encoding.v": [],
+      "core/rocq/encoding_arithmetic.v": [],
+      "core/rocq/encoding_stack.v": [],
+      "core/rocq/extract.v": [],
+      "core/rocq/input_memory.v": [],
+      "core/rocq/memory.v": [],
+      "core/rocq/memory_application.v": [],
+      "core/rocq/memory_calls.v": [],
+      "core/rocq/model.v": [],
+      "core/rocq/otp_bounds.v": [],
+      "core/rocq/otp_execution_bounds.v": [],
+      "core/rocq/padding.v": [],
+      "core/rocq/padding_memory.v": [],
+      "core/rocq/padding_native.v": [],
+      "core/rocq/program.v": [],
+      "core/rocq/refinement.v": [],
+      "core/rocq/round_kernel.v": [],
+      "core/rocq/round_model.v": [],
+      "core/rocq/sessions.v": [],
+      "core/rocq/sha1_blocks.v": [],
+      "core/rocq/sha1_bounds.v": [],
+      "core/rocq/sha1_compress.v": [],
+      "core/rocq/sha1_compute.v": [],
+      "core/rocq/sha1_digest.v": [],
+      "core/rocq/sha1_entry.v": [],
+      "core/rocq/sha1_iteration.v": [],
+      "core/rocq/sha1_loop.v": [],
+      "core/rocq/sha1_memory.v": [],
+      "core/rocq/sha1_reject.v": [],
+      "core/rocq/sha1_rounds.v": [],
+      "core/rocq/sha1_state.v": [],
+      "core/rocq/sha_execution_bounds.v": []
     },
     "declarations": {
       "cjr.authenticator.account_bounds.bounded_loop_increment_int64": {
@@ -12150,7 +12150,7 @@
       "cjr.authenticator.model.sha1_output_length": {
         "status": "available",
         "reason": "",
-        "description": "The theorem states that for every message msg, sha1 msg has length exactly 20, with no explicit premises. The supplied definition computes a state from the padded message and then flattens each state element using be_bytes 4. The supporting lemmas say this flattening produces four output elements per state element and that hash_blocks preserves a state length of five when given an initial state of that length. The input does not establish that initial has length five or explicitly define the output elements as bytes, and no proof is supplied."
+        "description": "The theorem states that for every message msg, the list sha1 msg has exactly 20 elements, with no premise restricting the message. The model starts from a five-element state, block hashing preserves that length, and converting each final state element with be_bytes 4 contributes four output elements. This theorem is a length guarantee; byte ranges are established separately by sha1_output_bytes, and cryptographic security is not asserted."
       },
       "cjr.authenticator.model.sha_add_int64": {
         "status": "available",

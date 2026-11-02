@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-11-02T15:13:38.934160+00:00",
+  "method": "Independent Python standard-library SHA-1 and HMAC computations cross-check the four concrete model vectors described in the reviewed explanations. This checks examples, not general implementation correctness or security.",
+  "source": "example/authenticator/core/rocq/model.v",
+  "source_sha256": "504c7c5e88e0e2a06435aa0ccfeb2197a677cbc36a9e041f5d0ede469ffbdac5",
+  "checks": [
+    {
+      "example": "sha1_empty",
+      "expected": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "observed": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "status": "passed"
+    },
+    {
+      "example": "sha1_abc",
+      "expected": "a9993e364706816aba3e25717850c26c9cd0d89d",
+      "observed": "a9993e364706816aba3e25717850c26c9cd0d89d",
+      "status": "passed"
+    },
+    {
+      "example": "rfc_hotp_0",
+      "expected": 755224,
+      "observed": 755224,
+      "status": "passed"
+    },
+    {
+      "example": "rfc_totp_59",
+      "expected": 94287082,
+      "observed": 94287082,
+      "status": "passed"
+    }
+  ]
+}
