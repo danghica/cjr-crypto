@@ -1,0 +1,23 @@
+{
+  "correctness_specification_modules": [
+    "cjr.authenticator.model",
+    "cjr.authenticator.accounts",
+    "cjr.authenticator.base32"
+  ],
+  "correctness_call_wrappers": [
+    "cjr.authenticator.program.call"
+  ],
+  "main_correctness_contracts": [
+    "cjr.authenticator.core_accounts.core_new_wp",
+    "cjr.authenticator.core_accounts.core_list_wp",
+    "cjr.authenticator.core_accounts.core_read_wp",
+    "cjr.authenticator.core_accounts.core_remove_wp",
+    "cjr.authenticator.core_accounts.core_rename_wp",
+    "cjr.authenticator.core_accounts.core_code_wp",
+    "cjr.authenticator.core_accounts.core_enroll_wp",
+    "cjr.authenticator.core_crypto.core_sha1_wp",
+    "cjr.authenticator.core_crypto.core_hmac_wp",
+    "cjr.authenticator.core_crypto.core_hotp_wp",
+    "cjr.authenticator.core_crypto.core_totp_wp"
+  ]
+}
